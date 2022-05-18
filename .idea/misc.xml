@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12364130434782608" />
+        <entry key="app/src/main/res/layout/activity_test.xml" value="0.1272644927536232" />
+        <entry key="core/src/main/res/drawable/bg_alert_error.xml" value="0.168" />
+        <entry key="core/src/main/res/drawable/bg_alert_success.xml" value="0.168" />
+        <entry key="core/src/main/res/drawable/bg_button_color_primary_mc.xml" value="0.168" />
+        <entry key="core/src/main/res/drawable/ic_filename__2_.xml" value="0.168" />
+        <entry key="core/src/main/res/drawable/ic_noti_checked.xml" value="0.168" />
+        <entry key="core/src/main/res/drawable/ic_noti_error.xml" value="0.168" />
+        <entry key="core/src/main/res/layout/activity_login.xml" value="0.12993920972644377" />
+        <entry key="core/src/main/res/layout/activity_main.xml" value="0.12364130434782608" />
+        <entry key="core/src/main/res/layout/activity_test.xml" value="0.203125" />
+        <entry key="core/src/main/res/layout/dialog_alerter_custom.xml" value="0.1" />
+        <entry key="core/src/main/res/layout/loading_view.xml" value="0.15885416666666666" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="bg_splash">#E7F0FF</color>
+    <color name="txt_skip_color">#F3640A</color>
+    <color name="bg_next">#6DC139</color>
+
+    <color name="colorPrimary">#0A73F0</color>
+    <color name="colorPrimary70">#B30A73F0</color>
+    <color name="colorPrimaryDark">#0A73F0</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="green_yellow">#ACEB3A</color>
+    <color name="status_onboading">#00479D</color>
+
+
+    <color name="transparent">#00000000</color>
+    <color name="lighter_grey">#DDDDDD</color>
+    <color name="dark">#9A000000</color>
+    <color name="home_page_mode_item_subtitle">#CCFFFFFF</color>
+    <color name="reticle_ripple">#9AFFFFFF</color>
+    <color name="bounding_box_gradient_start">#00FFFFFF</color>
+    <color name="bounding_box_gradient_end">@color/white</color>
+    <color name="object_detected_bg_gradient_start">#00000000</color>
+    <color name="object_detected_bg_gradient_end">#66000000</color>
+    <color name="object_confirmed_bg_gradient_start">#FFFFFFFF</color>
+    <color name="object_confirmed_bg_gradient_end">#FFFFFFFF</color>
+    <color name="object_reticle_outer_ring_fill">#1F000000</color>
+    <color name="object_reticle_outer_ring_stroke">#9AFFFFFF</color>
+    <color name="object_reticle_inner_ring">@color/white</color>
+
+    <color name="product_description">#5F6368</color>
+
+    <color name="textColorPrimary">#0A2851</color>
+    <color name="textColorPrimary30">#4D0A2851</color>
+    <color name="textColorPrimary20">#330A2851</color>
+    <color name="textColorPrimary50">#800A2851</color>
+    <color name="textColorPrimary70">#B30A2851</color>
+    <color name="textColorSecondary">#546985</color>
+    <color name="textColorSecondary30">#4D575757</color>
+    <color name="warning">#FF461E</color>
+    <color name="textColorDot">#A6B7CE</color>
+    <color name="error_red">#F7484A</color>
+    <color name="warring_red">#1AF7484A</color>
+    <color name="error_red_channelName">#FF0145</color>
+    <color name="warning_yellow">#FDC02E</color>
+    <color name="btn_retake">#D6D9E0</color>
+    <color name="txt_description">#6C7E98</color>
+
+    <color name="textColorContract">#536885</color>
+
+    <color name="bg_default_color">#F4F7FA</color>
+
+    <color name="ocr_colorPrimary">#FF8A00</color>
+    <color name="ocr_colorPrimaryDark">#EB8000</color>
+    <color name="ocr_colorAccent">#FFC107</color>
+
+    <color name="view_overlap">#660A2851</color>
+    <color name="textColorUnselected">#9EAABB</color>
+    <color name="main_bg_color">#F4F7FA</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="color_hotline">#F35C07</color>
+    <color name="color_bg_secondary">#F7F9FE</color>
+    <color name="e_contract_bg">#E5E5E5</color>
+    <color name="bg_otp_phone">#E1E6EE</color>
+    <color name="black60">#99000000</color>
+    <color name="black50">#80000000</color>
+    <color name="textColorHomeSelect">#536885</color>
+
+    <color name="bg_dialog">#660A2851</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="colorPrimary60">#990A73F0</color>
+    <color name="colorPrimary10">#1A0A73F0</color>
+    <color name="colorYellow10">#1AFBBB00</color>
+    <color name="colorPrimary20">#330A73F0</color>
+    <color name="textColorPrimary40">#660A2851</color>
+    <color name="loan_label">#536885</color>
+    <color name="colorControlHightlight">#E9EEEF</color>
+    <color name="color_thunder_bird">#9A362C</color>
+    <color name="text_password_default">#0A2851</color>
+    <color name="color_grey">#DEE3EA</color>
+    <color name="color_blue_toast">#0A2851</color>
+    <color name="grey_other">#7F8E9B</color>
+    <color name="bg_gray">#4DBCC5CE</color>
+    <color name="color_solitude">#DFE4EA</color>
+    <color name="text_gray">#C6CBD4</color>
+    <color name="text_sliver">#7587A0</color>
+
+    <color name="blue_cobalt">#10559C</color>
+    <color name="dodger_blue">#3180EE</color>
+    <color name="saddle_brown">#A04509</color>
+    <color name="bg_disable">#CED4DD</color>
+    <color name="black80">#CC000000</color>
+    <color name="light_brown">#AC8A77</color>
+    <color name="colorPrimaryDark10">#1A5FBD4B</color>
+    <color name="brown">#B3512019</color>
+    <color name="bg_inventory_expried">#F0BC39</color>
+    <color name="bg_inventory">#F4F7FA</color>
+    <color name="safety_orange">#F36507</color>
+    <color name="color_light_cyan">#E1F6FA</color>
+    <color name="gray_70">#B30A2851</color>
+    <color name="gray_dark">#0A2851</color>
+    <color name="bg_notification">#F4F7FA</color>
+    <color name="red_dot">#F95D5D</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="black40">#66000000</color>
+    <color name="bg_disbursement">#F2F2F2</color>
+    <color name="textColorPrimary10">#1A0A2851</color>
+
+    <color name="snow">#F9F9F9</color>
+    <color name="gray_child">#EFF8ED</color>
+    <color name="azure">#FCFDFD</color>
+    <color name="green">#6DC15B</color>
+    <color name="radical_red_10">#1AF7484A</color>
+    <color name="linen">#FDF1E4</color>
+    <color name="white_25">#40ffffff</color>
+    <color name="white_10">#1AFFFFFF</color>
+    <color name="color_hope">#0BC763</color>
+    <color name="color_hope_10">#1A0BC763</color>
+    <color name="color_pink">#F8DFDC</color>
+    <color name="color_divider">#EEF3F7</color>
+    <color name="color_sliver">#A2B0C7</color>
+    <color name="color_sliver_20">#33A2B0C7</color>
+    <color name="cornflower_blue">#21ADE5</color>
+    <color name="cornflower_blue_5">#0D21ADE5</color>
+    <color name="textColor_blue">#0049A3</color>
+    <color name="color_status_product">#141ED2</color>
+    <color name="color_progress">#D6DBE0</color>
+    <color name="whitee6">#E6ECEE</color>
+    <color name="colorPrimary50">#00B4FA</color>
+    <color name="color_line">#E7E9F2</color>
+    <color name="gold_tips">#F1AE21</color>
+    <color name="color_smalt">#002795</color>
+    <color name="color_bg_60">#99184FDD</color>
+
+</resources>

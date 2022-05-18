@@ -1,0 +1,2017 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <string name="facebook_app_id">871323856780128</string>
+    <string name="AF_DEV_KEY">xa5YQE4iCwPmJfXsGhpvua</string>
+    <string name="google_app_map_key">AIzaSyCCuTaJuSoGqbo1_91GoRTBttQjawXPSuI</string>
+    <string name="fb_login_protocol_scheme">fb871323856780128</string>
+
+    <string name="title_activity_force_update" translatable="false">ForceUpdateActivity
+    </string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment
+    </string>
+    <string name="second_fragment_label" translatable="false">Second Fragment
+    </string>
+    <string name="next" translatable="false">Tiếp theo
+    </string>
+    <string name="previous" translatable="false">Previous
+    </string>
+
+
+    <string name="entry_java_title" translatable="false">Java
+    </string>
+    <string name="entry_java_subtitle" translatable="false">Run the MLKit Showcase written in Java.
+    </string>
+    <string name="entry_kotlin_title" translatable="false">Kotlin
+    </string>
+    <string name="entry_kotlin_subtitle" translatable="false">Run the MLKit Showcase written in Kotlin.
+    </string>
+    <string name="mode_odt_live_title" translatable="false">Object Detection: Live Camera
+    </string>
+    <string name="mode_odt_live_subtitle" translatable="false">A device’s live camera can be used to detect objects in an environment.
+    </string>
+    <string name="mode_odt_static_title" translatable="false">Object Detection: Static Image
+    </string>
+    <string name="mode_odt_static_subtitle" translatable="false">One or more objects can be detected from a provided image.
+    </string>
+    <string name="mode_barcode_live_title" translatable="false">Barcode Scanning
+    </string>
+    <string name="mode_barcode_live_subtitle" translatable="false">Read data encoded in most standard barcode formats.
+    </string>
+    <string name="settings_title" translatable="false">MLKit Showcase Settings
+    </string>
+    <string name="cd_settings_button" translatable="false">Settings
+    </string>
+    <string name="cd_flash_button" translatable="false">Bật/Tắt Flash
+    </string>
+    <string name="cd_photo_library_button" translatable="false">Upload image
+    </string>
+
+    <string name="permdesc_flashlight" translatable="false">Quyền bật/tắt flash để chụp ảnh
+    </string>
+    permdesc_flashlight
+    <string name="prompt_point_at_an_object" translatable="false">Hướng máy ảnh về phía giấy tờ
+    </string>
+    <string name="prompt_hold_camera_steady" translatable="false">Giữ yên trong giây lát
+    </string>
+    <string name="product_search_button" translatable="false">Search object
+    </string>
+    <plurals name="bottom_sheet_title" translatable="false">
+        <item quantity="one" translatable="false">%d match found
+        </item>
+        <item quantity="other" translatable="false">%d matches found
+        </item>
+    </plurals>
+    <string name="static_image_prompt_detected_no_results" translatable="false">No results found
+    </string>
+    <string name="static_image_prompt_detected_results" translatable="false">Tap on a dot to inspect</string>
+    <string name="static_image_card_no_result_title" translatable="false">No result found
+    </string>
+    <string name="static_image_card_no_result_subtitle" translatable="false">Support text place holder
+    </string>
+    <string name="static_image_preview_card_subtitle" translatable="false">+%d more results
+    </string>
+
+    <!-- Strings for camera settings. -->
+    <string name="pref_category_camera" translatable="false">Camera
+    </string>
+    <string name="pref_key_rear_camera_preview_size" translatable="false">rcpvs
+    </string>
+    <string name="pref_key_rear_camera_picture_size" translatable="false">rcpts
+    </string>
+    <string name="pref_title_rear_camera_preview_size" translatable="false">Rear camera preview size
+    </string>
+
+    <!-- Strings for object detection settings. -->
+    <string name="pref_category_object_detection" translatable="false">Object detection
+    </string>
+    <string name="pref_key_object_detector_enable_multiple_objects" translatable="false">odemo
+    </string>
+    <string name="pref_title_object_detector_enable_multiple_objects" translatable="false">Enable multiple objects
+    </string>
+    <string name="pref_key_object_detector_enable_classification" translatable="false">odec
+    </string>
+    <string name="pref_title_object_detector_enable_classification" translatable="false">Enable classification
+    </string>
+
+    <!-- Strings for product search settings. -->
+    <string name="pref_category_product_search" translatable="false">Product search
+    </string>
+    <string name="pref_key_enable_auto_search" translatable="false">pkeas
+    </string>
+    <string name="pref_title_enable_auto_search" translatable="false">Enable auto search
+    </string>
+    <string name="pref_key_confirmation_time_in_manual_search" translatable="false">ctims
+    </string>
+    <string name="pref_title_confirmation_time_in_manual_search" translatable="false">Confirmation time in manual search
+    </string>
+    <string name="pref_summary_confirmation_time_in_manual_search" translatable="false">Ranges from 100ms to 1000ms
+    </string>
+    <string name="pref_key_confirmation_time_in_auto_search" translatable="false">ctias
+    </string>
+    <string name="pref_title_confirmation_time_in_auto_search" translatable="false">Confirmation time in auto search
+    </string>
+    <string name="pref_summary_confirmation_time_in_auto_search" translatable="false">Ranges from 500ms to 2000ms
+    </string>
+
+    <!-- Strings for barcode detection settings. -->
+    <string name="pref_category_barcode_detection" translatable="false">Barcode detection
+    </string>
+    <string name="pref_key_barcode_reticle_width" translatable="false">barcode_brw
+    </string>
+    <string name="pref_title_barcode_reticle_width" translatable="false">Barcode reticle width
+    </string>
+    <string name="pref_summary_barcode_reticle_width" formatted="false" translatable="false">Relative to the camera view width, ranges from 50% to 95%
+    </string>
+    <string name="pref_key_barcode_reticle_height" translatable="false">barcode_brh
+    </string>
+    <string name="pref_title_barcode_reticle_height" translatable="false">Barcode reticle height
+    </string>
+    <string name="pref_summary_barcode_reticle_height" formatted="false" translatable="false">Relative to the camera view height, ranges from 20% to 80%
+    </string>
+    <string name="pref_key_enable_barcode_size_check" translatable="false">barcode_ebsc
+    </string>
+    <string name="pref_title_enable_barcode_size_check" translatable="false">Enable barcode size check
+    </string>
+    <string name="pref_summary_enable_barcode_size_check" translatable="false">Will prompt user to move camera closer if the detected barcode is too small
+    </string>
+    <string name="pref_key_minimum_barcode_width" translatable="false">barcode_mbw
+    </string>
+    <string name="pref_title_minimum_barcode_width" translatable="false">Minimum barcode width
+    </string>
+    <string name="pref_summary_minimum_barcode_width" formatted="false" translatable="false">Relative to the reticle width, ranges from 20% to 80% (only applicable when barcode
+        size check enabled)
+    </string>
+    <string name="pref_key_delay_loading_barcode_result" translatable="false">barcode_dlbr
+    </string>
+    <string name="pref_title_delay_loading_barcode_result" translatable="false">Delay loading barcode result
+    </string>
+    <string name="pref_summary_delay_loading_barcode_result" translatable="false">Will show the loading spinner for 2s
+    </string>
+
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment
+    </string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s
+    </string>
+
+    <string name="onboarding_title_1" translatable="false">Vay tiền online mọi nơi mọi lúc
+    </string>
+    <string name="onboarding_des_1" translatable="false">Không cần thế chấp, thủ tục đơn giản, tư vấn miễn phí, duyệt hồ sơ nhanh chóng
+    </string>
+    <string name="onboarding_title_2" translatable="false">Xác minh danh tính khách hàng
+    </string>
+    <string name="onboarding_des_2" translatable="false">Thông qua CMND,CCCD, đảm bảo tính bảo mật, tiện lợi và nhanh chóng
+    </string>
+    <string name="onboarding_title_3" translatable="false">Ký hợp đồng điện tử
+    </string>
+    <string name="onboarding_des_3" translatable="false">Ký hợp đồng bằng chữ ký điện tử và nhận ngay khoản vay của bạn
+    </string>
+
+    <string name="skip" translatable="false">Bỏ qua</string>
+    <string name="start" translatable="false">Bắt đầu</string>
+
+
+    <string name="login" translatable="false">Đăng nhập
+    </string>
+    <string name="login_subTitle" translatable="false">Vui lòng đăng nhập để sử dụng tất cả tính năng của ứng dụng
+    </string>
+    <string name="phone" translatable="false">Số điện thoại
+    </string>
+    <string name="password" translatable="false">Mật khẩu
+    </string>
+    <string name="edt_hint_input_password" translatable="false">Nhập mật khẩu
+    </string>
+    <string name="edt_hint_input_phone" translatable="false">Số điện thoại của bạn
+    </string>
+    <string name="forgot_password" translatable="false">Quên mật khẩu
+    </string>
+    <string name="u_forgot_password" translatable="false">Quên mật khẩu?
+    </string>
+    <string name="register_now" translatable="false">Đăng ký ngay
+    </string>
+    <string name="dont_have_account" translatable="false">Bạn chưa có tài khoản?
+    </string>
+    <string name="welcome_back" translatable="false">Rất vui được gặp lại!
+    </string>
+    <string name="login_subTitle_2" translatable="false">Vui lòng nhập mật khẩu để truy cập ứng dụng
+    </string>
+    <string name="forgot_password_subtitle" translatable="false">Vui lòng hoàn thiện các thông tin dưới đây để bắt đầu quá trình lấy lại mật khẩu của
+        bạn
+    </string>
+    <string name="choose_otp_method" translatable="false">Chọn hình thức nhận OTP
+    </string>
+    <string name="method_sms" translatable="false">Qua tin nhắn SMS
+    </string>
+    <string name="continuee" translatable="false">Tiếp tục
+    </string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="input_new_password">Nhập mật khẩu mới</string>
+    <string name="edt_hint_input_new_password">Mật khẩu mới của bạn</string>
+    <string name="comfirm_new_password">Xác nhận mật khẩu mới</string>
+    <string name="your_new_password">Mật khẩu mới của bạn</string>
+    <string name="invalid_phone_number">Số điện thoại không hợp lệ</string>
+    <string name="invalid_password">Mật khẩu không đúng định dạng</string>
+    <string name="invalid_password_rule">Mật khẩu không hợp lệ. Mật khẩu hợp lệ sẽ bao gồm cả chữ và số, trong đó ít
+        nhất có 01 chữ cái viết hoa
+    </string>
+    <string name="input_opt">Nhập mã xác thực OTP</string>
+    <string name="otp_subtitle">Vui lòng nhập mã OTP được gửi về số điện thoại của bạn</string>
+    <string name="otp_subtitle_verifyfail">Nhập mã xác nhận quá số lần quy định, vui lòng thử lại sau 5 phút</string>
+    <string name="otp_subtitle_verifyfail_limit">Nhập mã xác nhận quá số lần quy định, vui lòng thử lại sau %s phút</string>
+    <string name="otp_subtitle_sentotpfail">Gửi mã xác nhận quá số lần quy định, vui lòng thử lại sau 5 phút</string>
+    <string name="get_otp">Lấy mã OTP</string>
+    <string name="register">Đăng ký</string>
+    <string name="register_subTitle">Vui lòng nhập số điện thoại để đăng ký và sử dụng dịch vụ trên ứng dụng Mcredit
+    </string>
+    <string name="complete_info">Hoàn tất thông tin</string>
+    <string name="complete_info_sub">Vui lòng nhập số điện thoại để đăng ký và sử dụng dịch vụ trên ứng dụng Mcredit
+    </string>
+    <string name="full_name">Họ và tên</string>
+    <string name="invalid_full_name">Họ và tên không hợp lệ</string>
+    <string name="edt_hint_full_name">Họ và tên của bạn</string>
+    <string name="sign_up">Đăng ký</string>
+    <string name="accept_policy">Khi bạn đăng ký đồng nghĩa với bạn đã đồng ý với các điều khoản sử dụng và điều khoản
+        cho vay của chúng tôi
+    </string>
+    <string name="accept_policy_2">Khi bạn đăng ký đồng nghĩa với việc bạn đã đồng ý với các điều khoản của chúng tôi
+    </string>
+    <string name="please_input_cccd">Số CMND/CCCD không hợp lệ. Vui lòng kiểm tra và thực hiện chụp lại. Trân trọng cảm ơn!</string>
+    <string name="please_input_info">Vui lòng điền thông tin đầy đủ</string>
+    <string name="please_input_contract">Vui lòng nhập số hợp đồng</string>
+    <string name="please_input_contract_valid">Số hợp đồng không hợp lệ, vui lòng nhập lại</string>
+    <string name="please_input_method">Vui lòng chọn phương thức</string>
+
+    <string name="please_input_email">Vui lòng nhập email</string>
+    <string name="please_input_address">Vui lòng nhập địa chỉ</string>
+    <string name="please_input_fullname">Vui lòng nhập họ và tên</string>
+
+    <string name="ekyc_title" translatable="false">Xác thực danh tính
+    </string>
+    <string name="ekyc_des1" translatable="false">Để bắt đầu quá trình ký, vui lòng thực hiện các bước xác thực để đảm bảo bạn đúng là chủ nhân của hợp đồng.
+    </string>
+    <string name="ekyc_des2" translatable="false">Ngoài ra, việc xác thực này cũng cần thiết để giúp bạn:
+    </string>
+    <string name="ekyc_confirm" translatable="false">Xác thực ngay
+    </string>
+    <string name="start_verify" translatable="false">Bắt đầu xác thực
+    </string>
+
+    <string name="ekyc_signathome_title" translatable="false">Ký hợp đồng điện tử
+    </string>
+    <string name="ekyc_signathome" translatable="false">Mở khoá tính năng giúp bạn dễ dàng quản lý và truy vấn khoản vay của mình mọi lúc, mọi
+        nơi
+    </string>
+    <string name="ekyc_security_title" translatable="false">Nâng cao bảo mật
+    </string>
+    <string name="ekyc_security" translatable="false">Bảo vệ bạn và tài khoản trước những nguy cơ lừa đảo
+    </string>
+    <string name="live_des" translatable="false">Vui lòng chụp ảnh mặt trước CMND/CCCD</string>
+    <string name="cmt_front">Mặt trước</string>
+    <string name="cmt_back">Mặt sau</string>
+    <string name="usethispicture">Sử dụng hình ảnh này</string>
+    <string name="retake">Chụp lại</string>
+
+    <string name="ocr_ok">OK</string>
+    <string name="ocr_permission_camera_rationale">Cần có quyền truy cập vào camera để thực hiện nhận diện</string>
+    <string name="ocr_no_camera_permission">Ứng dụng này không thể chạy vì nó không có sự cho phép của máy ảnh. Ứng dụng
+        sẽ thoát.
+    </string>
+    <string name="ocr_take_photo">Chụp ảnh CMTND</string>
+    <string name="ocr_next">Next</string>
+    <string name="ocr_fullName">Họ và tên</string>
+    <string name="ocr_cardNumber">Số CMND/CCCD</string>
+    <string name="ocr_birthday">Ngày sinh</string>
+    <string name="ocr_sex">Giới tính</string>
+    <string name="ocr_address">Địa chỉ</string>
+    <string name="ocr_expire_date">Ngày hết hạn</string>
+    <string name="ocr_result">Kết quả xác thực danh tính</string>
+    <string name="ocr_sim">Giống:</string>
+    <string name="ocr_not_sim">Không trùng khớp</string>
+    <string name="ocr_verify_result">Kết quả xác thực khuôn mặt</string>
+    <string name="ocr_maybe_same">Gần giống</string>
+    <string name="ocr_take_front">Mặt trước</string>
+    <string name="ocr_take_back">Mặt sau</string>
+    <string name="ocr_retake_photo">Chụp lại</string>
+    <string name="ocr_confirm_photo">Đồng ý</string>
+    <string name="ocr_confirm_photo_mess_front">Mặt Trước thẻ</string>
+    <string name="ocr_confirm_photo_mess_back">Mặt Sau thẻ</string>
+    <string name="ocr_ethnicity">Dân tộc</string>
+    <string name="ocr_religion">Tôn giáo</string>
+    <string name="ocr_created_date">Ngày cấp</string>
+    <string name="ocr_create_by">Nơi cấp</string>
+    <string name="ocr_confirm_face_mess">Chụp khuôn mặt</string>
+    <string name="rotate_left">Vui lòng quay đầu sang trái</string>
+    <string name="rotate_right">Vui lòng quay đầu sang phải</string>
+    <string name="face_detect">Vui lòng nhìn thẳng vào camera</string>
+    <string name="close_eye">Vui lòng nhắm mắt.</string>
+    <string name="center_your_face">Để khuôn mặt giữa màn hình</string>
+    <string name="card_scanning">Chụp ảnh thẻ</string>
+    <string name="close">Đóng</string>
+    <string name="detect_success">Đã ghi nhận hình ảnh</string>
+    <string name="done">Xong</string>
+    <string name="ocr_national">Quốc tịch</string>
+    <string name="ocr_country">Quê Quán</string>
+    <string name="face_anti_spoof_status">Kết quả chống giả mạo khuôn mặt</string>
+
+    <string name="ocr_comfirm">Hoàn tất</string>
+    <string name="success_confirm">Xác thực thành công!</string>
+    <string name="success_des">Thông tin của bạn đã được xác thực thành công trên hệ thống của Mcredit</string>
+
+    <string name="failed_confirm">Xác thực không thành công!</string>
+    <string name="failed_des">Mời bạn ra các điểm hỗ trợ để thực hiện xác thực lại. Hotline 1900 63 67 69</string>
+    <string name="result">Ảnh chụp khuôn mặt</string>
+    <string name="personal_info">Thông tin cá nhân</string>
+    <string name="login_fail">Thông tin đăng nhập không đúng</string>
+    <string name="home">Trang Chủ</string>
+    <string name="account">Tài khoản</string>
+    <string name="hello_there">Xin chào!</string>
+    <string name="next_payment">Thanh toán tiếp theo</string>
+    <string name="view_detail">Xem chi tiết</string>
+    <string name="hello_guess">Chào bạn, vui lòng đăng nhập để sử dụng được toàn bộ tính năng của ứng dụng</string>
+    <string name="product_borrow">Sản phẩm vay</string>
+    <string name="view_more">Xem thêm</string>
+    <string name="news_and_discount">Tin tức - Khuyến mãi</string>
+    <string name="text_new_subTitle">Cập nhật những tin tức, sự kiện khuyến mãi mới nhất từ Mcredit</string>
+    <string name="why_choose_mcredit">TẠI SAO NÊN VAY CỦA MCREDIT</string>
+    <string name="loan_manager">Quản lý khoản vay</string>
+    <string name="loan_manager2">Quản lý\nkhoản vay</string>
+    <string name="loan_list_register">Danh sách đăng ký vay</string>
+    <string name="e_contract">Ký hợp đồng điện tử</string>
+    <string name="settings">Cài đặt</string>
+    <string name="contact_and_support">Liên hệ hỗ trợ</string>
+    <string name="feedback">Góp ý</string>
+    <string name="share_friend">Chia sẻ bạn bè</string>
+    <string name="rate_me">Đánh giá chúng tôi</string>
+    <string name="policy_condition">Điều khoản và điều kiện</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="verify_now">Xác thực ngay</string>
+    <string name="user_profile">Thông tin cá nhân</string>
+    <string name="verify_account">Xác thực tài khoản</string>
+    <string name="verified">Đã xác thực</string>
+    <string name="cmtnd_info">Thông tin CMND/CCCD</string>
+    <string name="update">Cập nhật</string>
+    <string name="card_category">Loại thẻ</string>
+    <string name="card_number">Số CMND/CCCD</string>
+    <string name="card_place">Nơi cấp</string>
+    <string name="card_day">Ngày cấp</string>
+    <string name="card_day_expired">Ngày hết hạn</string>
+    <string name="password_rule">Lưu ý, mật khẩu từ 6 kí tự, bao gồm kí tự thường, kí tự in hoa và chữ số.</string>
+    <string name="old_password">Mật khẩu cũ</string>
+    <string name="your_current_password">Mật khẩu hiện tại của bạn</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="recommendLogin">Đăng ký / Đăng nhập ngay để mở khoá thêm nhiều tiện ích khác</string>
+    <string name="txtConfirmLogout">Bạn có chắc chắn muốn đăng xuất khỏi tài khoản này?</string>
+
+
+    <string name="cancel">Hủy bỏ</string>
+
+    <string name="invalid_comfirm_pass">Mật khẩu không khớp</string>
+    <string name="signup_password_rule">Hoàn tất thông tin và đặt mật khẩu cho tài khoản của bạn. Mật khẩu phải có ít
+        nhất 6 kí tự, bao gồm cả chữ và số, trong đó có ít nhất 01 chữ cái viết hoa
+    </string>
+    <string name="comfirm_password">Xác nhận mật khẩu</string>
+    <string name="accept_policy_1">Khi bạn đăng ký đồng nghĩa với bạn đã đồng ý với các</string>
+    <string name="policy">Điều khoản</string>
+    <string name="policy_use">Điều khoản sử dụng</string>
+    <string name="policy_use_sub">Xin vui lòng xem kỹ những quy định dưới đây trước khi Quý khách tiếp tục truy cập
+        website. Việc truy cập vào website có nghĩa rằng Quý khách đồng ý với những quy định và điều kiện dưới đây.
+        Thông tin chúng tôi sử dụng trên website chỉ dành cho mục đích tham khảo và có thể thay đổi mà không cần phải
+        thông báo. Mcredit có thể thay đổi các quy định này và cập nhật bất cứ lúc nào; do đó, Quý khách nên truy cập
+        website thường xuyên để có được thông tin mới nhất.
+    </string>
+    <string name="copyright_trademark">Bản quyền và thương hiệu</string>
+    <string name="copyright_trademark_sub">Thông tin và hình ảnh trên website thuộc quyền sở hữu của Mcredit. Việc sao
+        chép, sử dụng phải được Mcredit chấp thuận trước bằng văn bản.
+    </string>
+    <string name="indemnity">Miễn trừ trách nhiệm</string>
+    <string name="indemnity_sub">Tất cả những tư liệu được cung cấp trên website này đều mang tính tham khảo. Do đó, nội
+        dung và hình ảnh sẽ được thay đổi, cập nhật và cải tiến thường xuyên mà không phải thông báo trước. Chúng tôi
+        không chịu trách nhiệm pháp lý cho những thiệt hại xuất hiện trực tiếp hay gián tiếp từ viêc sử dụng hoặc hành
+        động dựa theo những thông tin trên hoặc một số thông tin xuất hiện trên website này. Mcredit không chịu trách
+        nhiệm pháp lý về những sai sót, lỗi chính tả… do nhập liệu cùng với những sự cố khách quan khác như: nhiễm
+        virus, hành vi phá hoại, ác ý... xảy ra trên website này cũng như các website liên kết, nếu có.
+    </string>
+    <string name="user_info">Thông tin cá nhân</string>
+    <string name="date_of_birth">Ngày sinh</string>
+    <string name="gender">Giới tính</string>
+    <string name="email">Email</string>
+    <string name="update_info">Cập nhật thông tin</string>
+    <string name="province">Tỉnh/Thành phố</string>
+    <string name="district">Quận/Huyện</string>
+    <string name="wards">Phường/Xã</string>
+
+    <string name="dialog_login_dashboard">Bạn cần đăng nhập để có thể sử dụng tính năng này</string>
+    <string name="login_later">Để lúc khác</string>
+    <string name="card_type">Loại giấy tờ</string>
+    <string name="setting_account">Cài đặt tài khoản</string>
+    <string name="q_a">Câu hỏi thường gặp</string>
+    <string name="qa_sub">Tổng hợp những thắc mắc của khách hàng liên quan tới sản phẩm và dịch vụ của Mcredit
+    </string>
+    <string name="location_mc">Địa chỉ: Tầng 9 - 12 Tòa nhà MB Bank, số 21 Cát Linh, phường Cát Linh, quận Đống Đa, Hà
+        Nội
+    </string>
+    <string name="phone_sale">024 710 86 888</string>
+    <string name="email_support">dvkh@mcredit.com.vn</string>
+    <string name="change_password_success">Thay đổi mật khẩu thành công!</string>
+
+
+    <string name="news">Tin tức - Khuyến mãi</string>
+    <string name="q_a_url">https://mcredit.com.vn/dudu/faqs.html</string>
+    <string name="family_register">Hộ khẩu thường trú</string>
+    <!--    <string name="province">Phường / Xã</string>-->
+    <string name="mb_bank">MB Bank</string>
+    <string name="mb_bank_url">https://mcredit.com.vn/vi/tra-cuu-diem-nop-tien/</string>
+    <string name="momo">MoMo</string>
+    <string name="momo_url">https://mcredit.com.vn/vi/tra-cuu-diem-nop-tien/</string>
+    <string name="payoo">Payoo</string>
+    <string name="payoo_url">https://mcredit.com.vn/vi/tra-cuu-diem-nop-tien/</string>
+    <string name="viettel">Viettel</string>
+    <string name="viettel_url">https://mcredit.com.vn/vi/tra-cuu-diem-nop-tien/</string>
+    <string name="borrow_cash">Vay tiền mặt</string>
+    <string name="procedure_borror">Quy trình Vay tiền mặt - 5 Bước</string>
+    <string name="borrow_sub1">Mcredit: Tiếp cận và tư vấn khách hàng về nhu cầu vay và lãi suất.</string>
+    <string name="borrow2">Khách hàng: Cung cấp hồ sơ theo yêu cầu của sản phẩm vay.</string>
+    <string name="borrow_sub3">Mcredit: Thẩm định hồ sơ khách hàng (trong vòng 3 ngày).</string>
+    <string name="borror_sub4">Khách hàng: Hoàn tất hồ sơ hợp đồng tín dụng tại điểm giới thiệu dịch vụ của Mcredit.
+    </string>
+    <string name="borrow_sub5">"Mcredit: Hướng dẫn khách hàng nhận tiền mặt qua bên chi hộ của Mcredit/Nhận qua tài
+        khoản ngân hàng bằng chuyển khoản. "
+    </string>
+    <string name="exactly_address">Địa chỉ chính xác</string>
+    <string name="input_your_email">Nhập email của bạn</string>
+    <string name="invalid_email">Email không hợp lệ</string>
+    <string name="choose">Chọn</string>
+    <string name="update_info_success">Cập nhật thông tin thành công!</string>
+    <string name="update_info_success_v2">Cập nhật thông tin thành công</string>
+    <string name="update_info_fail">Cập nhật thất bại. Vui lòng thử lại sau.</string>
+    <string name="view_info">Xem thông tin</string>
+    <string name="temporaryAddress">Địa chỉ hiện tại</string>
+    <string name="invalid_address">Địa chỉ không chính xác</string>
+    <string name="e_contract_title">Ký hợp đồng điện tử</string>
+    <string name="list_loan_pending">Danh sách hồ sơ đang chờ ký</string>
+    <string name="borror_bike">Vay mua xe máy, xe điện</string>
+    <string name="detail">CHI TIẾT</string>
+    <string name="un_verified">Chưa xác thực</string>
+    <string name="comfirm_update_ekyc">Những thông tin xác thực cũ sẽ bị ghi đè lên khi bạn thực hiện thao tác này. Vẫn
+        tiếp tục?
+    </string>
+    <string name="alert">Cảnh báo</string>
+    <string name="accept">Đồng ý</string>
+    <string name="notice">Thông báo</string>
+    <string name="province_required">Vui lòng chọn Tỉnh/Thành phố trước khi chọn Quận/Huyện</string>
+    <string name="province_required_2">Vui lòng chọn Tỉnh/Thành phố trước khi chọn các thông tin khác.</string>
+    <string name="district_requird">Vui lòng chọn Quận/Huyện trước khi chọn Phường/Xã</string>
+    <string name="district_requird2">Vui lòng chọn Quận/Huyện trước khi chọn các thông tin khác</string>
+    <string name="finish">Hoàn thành</string>
+    <string name="sign_contract_success">Ký hợp đồng thành công</string>
+    <string name="sign_contract_success_sub">Quý khách đã ký thành công hợp đồng cho vay qua ứng dụng điện tử tại Mcredit. Dữ liệu khoản vay sẽ được cập nhật trong vòng 24h tới. Trân trọng cảm ơn! Hotline: 1900 63 67 69</string>
+    <string name="check_contract">Kiểm tra hợp đồng đã ký</string>
+    <string name="reload_page">Tải lại trang</string>
+    <string name="internet_fail">Có lỗi xảy ra. Vui lòng kiểm tra kết nối mạng của bạn và thử lại.</string>
+    <string name="cash_out">Yêu cầu giải ngân</string>
+    <string name="cash_out_required">Bạn có thể yêu cầu giải ngân ngay lập tức nếu có nhu cầu.</string>
+    <string name="cash_out_required_sub">Bạn có thể yêu cầu giải ngân ngay lập tức nếu có nhu cầu.</string>
+    <string name="money_label">Số tiền</string>
+    <string name="input_money">Nhập số tiền muốn giải ngân</string>
+    <string name="money_subTitle_3">*Số tiền giải ngân tối thiểu là 3.000.000 VND và tối đa không vượt quá hạn mức được
+        cấp
+    </string>
+    <string name="money_over">* Vượt quá hạn mức cho phép</string>
+    <string name="search_contract">Tìm kiếm hợp đồng</string>
+    <string name="note">Lưu ý</string>
+    <string name="econtract_note_sub">Quý khách hàng vui lòng nhập chính xác số hợp đồng đã được gửi đến thông qua tin
+        nhắn SMS trước đó. Trân trọng cảm ơn!
+    </string>
+    <string name="econtract_note_hotline">Cần hỗ trợ, gọi ngay hotline:</string>
+    <string name="econtract_note_hotline_number">1900 63 67 69</string>
+    <string name="search_result">Kết quả tìm kiếm</string>
+    <string name="econtract_search_fail">Xin lỗi, chúng tôi không thể tìm thấy kết quả nào phù hợp</string>
+    <string name="view_all">Xem tất cả</string>
+    <string name="vnpost">VNPost</string>
+    <string name="vnpost_url">https://mcredit.com.vn/vi/tra-cuu-diem-nop-tien/</string>
+    <string name="complete">Hoàn thành</string>
+    <string name="current_address">Địa chỉ hiện tại</string>
+    <string name="expired_sesssion">Hết phiên làm việc. Vui lòng đăng nhập lại để tiếp tục sử dụng dịch vụ.</string>
+    <string name="version">Phiên bản</string>
+    <string name="hotline">Hotline: 1900 63 67 69</string>
+    <string name="send">Gửi</string>
+    <string name="input_content">Nhập nội dung</string>
+    <string name="invalid_contract_id">Số hợp đồng không hợp lệ</string>
+    <string name="e_contract_sign_success">Ký hợp đồng thành công</string>
+    <string name="airpay">Airpay</string>
+    <string name="shopee">Shopee</string>
+    <string name="shoppe_url">https://mcredit.com.vn/vi/tra-cuu-diem-nop-tien/</string>
+    <string name="airpay_url">https://mcredit.com.vn/vi/tra-cuu-diem-nop-tien/</string>
+    <string name="permission_otp">Tự động điền mã OTP qua\ntin nhắn</string>
+    <string name="permission_otp_sub">Chúng tôi cần bạn cấp quyền đọc tin nhắn để giúp bạn xác thực nhanh hơn. Bạn có
+        thể thay đổi sau bằng cách vào Cài đặt.
+    </string>
+    <string name="later">Để sau</string>
+    <string name="notice_econtract">Xin quý khách vui lòng kiểm tra lại và xác nhận rằng những thông tin dưới đây hoàn toàn chính xác trước khi hoàn tất xác thực</string>
+    <string name="econtract_number">Số hợp đồng</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="borrower_info">Thông tin người vay</string>
+    <string name="contract_info">Thông tin hợp đồng</string>
+    <string name="edit_info">Chỉnh sửa thông tin</string>
+    <string name="available">Hiện có</string>
+    <string name="completed">Đã hoàn tất</string>
+    <string name="loan_list_available_empty">Bạn hiện chưa có khoản vay nào</string>
+    <string name="loan_list">Danh sách khoản vay</string>
+    <string name="repayment_schedule">Lịch trả nợ</string>
+    <string name="repayment_history">Lịch sử trả nợ</string>
+    <string name="view_repayment_history">Xem lịch sử trả nợ</string>
+    <string name="loan_detail">Chi tiết khoản vay</string>
+    <string name="loan_info">Thông tin khoản vay</string>
+    <string name="product_category">Loại sản phẩm</string>
+    <string name="effective_from">Có hiệu lực từ ngày</string>
+    <string name="loan_duration">Kỳ hạn vay</string>
+    <string name="interest_rate_year">Lãi suất năm</string>
+    <string name="loan_insurance">Bảo hiểm khoản vay</string>
+    <string name="payment_info">Thông tin thanh toán</string>
+    <string name="payed_and">ĐÃ THANH TOÁN VÀ CHUYỂN TRƯỚC</string>
+    <string name="remaining">CÒN LẠI</string>
+    <string name="day_payment">Ngày thanh toán</string>
+    <string name="sort_by">Sắp xếp theo:</string>
+    <string name="amount_next_payment">SỐ TIỀN PHẢI THANH TOÁN</string>
+    <string name="schedule_detail">Lộ trình chi tiết</string>
+    <string name="principal_amount">Số tiền gốc</string>
+    <string name="amount_interest">Tiền lãi</string>
+    <string name="amount_interest_per_month">Số tiền lãi hàng tháng</string>
+    <string name="amount_fee">Phí thu hộ (dự kiến)</string>
+    <string name="fee_service">Phí dịch vụ thu hộ</string>
+    <string name="paymented">Đã tất toán</string>
+    <string name="outstanding_balance">Dư nợ còn lại</string>
+    <string name="payment_chanel">Kênh thanh toán</string>
+    <string name="ending_balance">Dư nợ cuối kỳ</string>
+    <string name="loan_manager_subtitle">Quản lý và truy vấn khoản vay của bạn mọi lúc, mọi nơi</string>
+    <string name="input_contract_number">Nhập số hợp đồng (16 số)</string>
+    <string name="loan_manager_sub2">Ký hợp đồng vay tiền, trả góp online mà không cần phải tới cửa hàng</string>
+    <string name="sign_at_home">Ký hợp đồng tại nhà</string>
+    <string name="ekyc_loan_des1">Việc này nhằm đảm bảo bạn chính xác là khách hàng của Mcredit trước khi chúng tôi có
+        thể cung cấp cho bạn danh sách các khoản vay.
+    </string>
+    <string name="ekyc_loan_des2">Hơn thế nữa, việc xác thực này cũng cần thiết để giúp bạn:</string>
+    <string name="exit">Thoát</string>
+    <string name="load_fail_chanel">Có lỗi xảy ra. Thử tải lại</string>
+    <string name="loan_limit_amount_title">Hạn mức vay được cấp</string>
+    <string name="borror_amount">Số tiền vay</string>
+    <string name="repayment_history_empty">Bạn chưa có lịch sử trả nợ</string>
+    <string name="ok">OK</string>
+    <string name="invalid_reason_cancel">Vui lòng chọn lý do huỷ hợp đồng</string>
+    <string name="please_wait_on">Vui lòng đợi trong</string>
+    <string name="otp_expried_on">Mã có hiệu lực trong</string>
+    <string name="backContent">Trở lại</string>
+    <string name="tutorial">Hướng dẫn</string>
+    <string name="am_got_it">Tôi đã hiểu</string>
+    <string name="policy_term">Hợp đồng mẫu cho vay</string>
+
+    <string name="input_current_password">Nhập mật khẩu hiện tại</string>
+
+    <string name="appID">4609932093146403637</string>
+    <string name="budget_loan">Hạn mức vay hiện tại của bạn</string>
+    <string name="upto_budget">Tăng hạn mức</string>
+    <string name="loan_budget">
+        <![CDATA[Bạn đang có <font color=\'#0A73F0\'>3 khoản vay</font> sắp đến hạn thanh toán]]></string>
+    <string name="total_currentcy">Tổng số tiền phải trả</string>
+    <string name="payment">Thanh toán</string>
+    <string name="payment_data">Thanh toán %s VND</string>
+    <string name="tool_calculator">Công cụ tính nợ</string>
+    <string name="empty" />
+    <string name="management_loan">Quản lý khoản vay</string>
+    <string name="re_input_new_password">Nhập lại mật khẩu</string>
+    <string name="renew_password">Đặt lại mật khẩu</string>
+    <string name="complete_payment">Tra cứu tất toán khoản vay</string>
+    <string name="note_payment_loan">Kỳ thanh toán tiếp theo</string>
+    <string name="deadline_payment">Ngày thanh toán tiếp theo</string>
+    <string name="payment_loans">Thanh toán nợ</string>
+    <string name="choose_payment_loans">Chọn hình thức thanh toán</string>
+    <string name="payment_in_month">Thanh toán dư nợ trong tháng</string>
+    <string name="payment_all_money">Tất toán toàn bộ khoản vay</string>
+    <string name="total_payment">Số tiền cần thanh toán</string>
+    <string name="overdue_payment">Phạt quá hạn thanh toán</string>
+    <string name="prepayment_fee">Phí tất toán trước hạn (5%)</string>
+    <string name="choose_day_payment_loans">Chọn ngày bạn muốn tất toán</string>
+    <string name="show">Chi tiết</string>
+    <string name="hide">Thu gọn</string>
+    <string name="payment_loans_tenor">Thanh toán dư nợ trong kỳ</string>
+    <string name="type_payment">Hình thức thanh toán</string>
+    <string name="atm_card">Thẻ ATM nội địa / InternetBanking</string>
+    <string name="momo_card">Ví momo</string>
+    <string name="airpay_card">Ví Airpay</string>
+    <string name="mb_card">Chuyển khoản</string>
+    <string name="money_card">Thanh toán tiền mặt</string>
+    <string name="mb_sub_card">Tới tài khoản thanh toán của Mcredit</string>
+    <string name="money_sub_card">Tại điểm thu hộ</string>
+    <string name="guide_payment">Hướng dẫn chuyển khoản</string>
+    <string name="note_guide">Mcredit hoàn toàn không thu phí thanh toán. Phí giao dịch phát sinh (nếu có) sẽ đến từ
+            dịch vụ ngân hàng mà bạn đang sử dụng.
+        </string>
+    <string name="note_guide_title">Để tiến hành thanh toán, bạn cần sử dụng ứng dụng Ngân hàng để chuyển khoản tới số
+        tài khoản của Mcredit theo hướng dẫn dưới đây
+    </string>
+
+    <string name="mb_bank_detail_name">Ngân hàng TMCP Quân đội</string>
+    <string name="note_guide_warning">Lưu ý, thiếu thông tin này, Mcredit sẽ không thể nhận ra khoản tiền thanh toán đến
+        từ &lt;font color="#0A2851">&lt;b>%s&lt;/b>&lt;/font>
+    </string>
+    <string name="money_pay">Số tiền cần chuyển</string>
+    <string name="copy_data">Sao chép</string>
+    <string name="back_home">Về trang chủ</string>
+    <string name="permission_camera">Cấp quyền sử dụng camera</string>
+    <string name="permission_external">Cấp quyền truy cập bộ nhớ</string>
+    <string name="description_camera">Chúng tôi cần có quyền sử dụng máy ảnh trên thiết bị của bạn để chụp chân dung và
+        giấy tờ tùy thân. Bạn có thể thay đổi lại sau đó bằng cách vào Cài đặt.
+    </string>
+    <string name="description_external">Chúng tôi cần bạn chia sẻ quyền truy cập bộ nhớ để có thể tải lên tài liệu bạn mong muốn.
+    </string>
+    <string name="description_detail_camera"><![CDATA[Đi đến Cài đặt > Quyền truy cập > Camera]]></string>
+    <string name="description_detail_external">Bạn có thể thay đổi sau bằng cách vào Cài đặt > Quyền truy cập > Bộ nhớ</string>
+    <string name="note_empty_location">Không tìm thấy điểm thu hộ nào trong phạm vi tìm kiếm</string>
+    <string name="location_near">Điểm thu hộ gần tôi</string>
+    <string name="copy_success">Đã sao chép</string>
+    <string name="message_login_fail_default">Đăng nhập không thành công</string>
+    <string name="zalo_app_secret">268DYXiG7U593bnvO786</string>
+
+    <string name="verify_accept">Đã xác thực</string>
+    <string name="potential_members">Hội viên tiềm năng</string>
+    <string name="upto_menber_bachkim"><![CDATA[Cần thêm <b>%s xu</b> nữa để lên hội viên bạch kim]]></string>
+    <string name="upto_gold_menber"><![CDATA[Cần thêm <b>%s xu</b> nữa để lên hội viên vàng]]></string>
+    <string name="upto_sliver_menber"><![CDATA[Cần thêm <b>%s xu</b> nữa để lên hội viên bạc]]></string>
+    <string name="upto_platinum_menber">Bạn đã đạt mức hội viên cao nhất</string>
+    <string name="invite_friend">Giới thiệu bạn bè</string>
+    <string name="share_get_coin">Nhận xu để nâng cấp hội viên hoặc đổi quà</string>
+    <string name="link_account">Liên kết tài khoản</string>
+    <string name="link_account_fb">Liên kết tài khoản Facebook</string>
+    <string name="link_account_zalo">Liên kết tài khoản Zalo</string>
+    <string name="link_account_gg">Liên kết tài khoản Google</string>
+    <string name="setting_general">Cài đặt chung</string>
+    <string name="account_me">Tài khoản của tôi</string>
+    <string name="policy_v2">Điều khoản và điều kiện</string>fa
+    <string name="contact">Liên hệ - Hỗ trợ</string>
+    <string name="member_ranking">Hội viên Tiềm năng</string>
+    <string name="invite">Giới thiệu bạn bè</string>
+    <string name="copy_invite">Sao chép nội dung</string>
+    <string name="post">Đăng bài</string>
+    <string name="copy_text">Đã sao chép</string>
+    <string name="no_instant_zalo">Chưa cài zalo</string>
+    <string name="add_friend_add_coin">Thêm bạn, thêm xu!</string>
+    <string name="description_invite">Mcredit - Giải pháp tài chính thông minh nằm trong bàn tay bạn. Nhấn vào link để cài đặt ngay nhé.\n</string>
+    <string name="default_notification_channel_id">Miscellaneous</string>
+    <string name="share_success">Chia sẻ thành công!</string>
+    <string name="link_play_store">https://mcredit-vn.onelink.me/XX1S/mcredit</string>
+    <string name="permission_location">Cấp quyền truy cập vị trí</string>
+    <string name="description_location">
+        <![CDATA[Chúng tôi cần bạn chia sẻ vị trí để có thể hướng dẫn bạn tới các điểm thanh toán gần nhất. Bạn có thể thay đổi sau bằng cách vào Cài đặt > Quyền truy cập > Vị trí]]></string>
+    <string name="share_error_limit">Bạn đã gửi quá nhiều yêu cầu trong một khoảng thời gian</string>
+    <string name="share_error_permission">Tài khoản Zalo của bạn không cấp quyền chia sẻ. Kiểm tra tại cài đặt của
+        Zalo.
+    </string>
+    <string name="load_more">Tải thêm</string>
+    <string name="open_distance">Mở rộng phạm vi tìm kiếm</string>
+    <string name="loan_limit">Hạn mức vay còn lại</string>
+    <string name="amount_paid">Số tiền phải trả trong kỳ</string>
+    <string name="suggestion_payment">Số tiền đề nghị vay</string>
+    <string name="contract">Hợp đồng</string>
+    <string name="status_title">Trạng thái:</string>
+    <string name="wait_for_processing">Đang chờ xử lý</string>
+    <string name="view_contract_title">Chi tiết hợp đồng</string>
+    <string-array name="days_sunday_array">
+        <item>T2</item>
+        <item>T3</item>
+        <item>T4</item>
+        <item>T5</item>
+        <item>T6</item>
+        <item>T7</item>
+        <item>CN</item>
+    </string-array>
+    <string name="create_mb_fail">Số tài khoản giải ngân quý khách đăng ký mở tại MB Bank không thành công. Vui lòng lựa chọn hình thức giải ngân thay thế.
+    </string>
+    <string name="change_chanel_title">"Quý khách muốn thay đổi điểm chi hộ? Vui lòng lựa chọn một đối tác giải ngân phù hợp trong danh sách dưới đây. "
+    </string>
+    <string name="voucher_event">Sự kiện ưu đãi</string>
+    <string name="regsiter_game_title_2">Các bước tham gia trò chơi</string>
+    <string name="register_event_game">Báo danh sự kiện</string>
+    <string name="edt_hint_input_email">Example@gmail.com</string>
+    <string name="invalid_email_event">Vui lòng không để trống thông tin</string>
+    <string name="invide_if">Người giới thiệu (Nếu có)</string>
+    <string name="edt_hint_input_phone_v2">Nhập số điện thoại</string>
+    <string name="begin_game">Bắt đầu trò chơi</string>
+    <string name="register_game">Báo danh</string>
+    <string name="choose_seeds">Chọn mua hạt giống</string>
+    <string name="seed_nomal">Hạt giống thường</string>
+    <string name="seed_good">Hạt giống tốt</string>
+    <string name="seed_special">Hạt giống đặc biệt</string>
+    <string name="seed_what">Hạt giống là gì?</string>
+    <string name="dialog_seed_decription">Để bắt đầu trò chơi, người chơi cần chọn mua 1 loại hạt giống cho vườn cây của
+        mình. Loại hạt giống bạn chọn sẽ quyết định đến sản lượng trái mà bạn thu được mỗi ngày. Cụ thể như sau:
+    </string>
+    <string name="count_10_hour">SL: 10 trái/giờ</string>
+    <string name="count_20_hour">SL: 20 trái/giờ</string>
+    <string name="count_40_hour">SL: 40 trái/giờ</string>
+    <string name="understand">Tôi đã hiểu</string>
+    <string name="hm_m">Hm…m…</string>
+
+    <string name="earn_coin">Kiếm thêm xu bằng cách nào?</string>
+    <string name="game_please_enter">Vui lòng cung cấp đầy đủ các thông tin dưới đây để đăng ký tham gia trò chơi
+    </string>
+    <string name="seed_nomal_coin">1000</string>
+    <string name="seed_good_coin">6000</string>
+    <string name="seed_special_coin">15000</string>
+
+    <string name="game_info_description">Tháng 6 vui vẻ với chương trình mới từ MCredit. Tham gia trồng cây và thu hoạch
+        trái để có cơ hội nhận ngay 03 iPhone 12 128GB, 05 Apple Watch S6, cùng hàng ngàn quà tặng hấp dẫn khác.
+    </string>
+    <string name="create_passwork">Tạo mật khẩu để làm gì?</string>
+    <string name="create_password_description">Tạo mật khẩu giúp tài khoản của bạn được bảo vệ tốt hơn. Mật khẩu này
+        cũng có thể được sử dụng để đăng nhập vào ứng dụng qua số điện thoại.
+    </string>
+    <string name="get_otp_v2">Lấy mã xác thực</string>
+    <string name="register_fail">Đăng ký không thành công</string>
+    <string name="register_game_fail">Báo danh không thành công</string>
+    <string name="add_friends">Thêm thành viên</string>
+    <string name="choose_contact">Chọn từ danh bạ</string>
+    <string name="enter_phone">Nhập số điện thoại</string>
+    <string name="enter_phone_name">Nhập tên, số điện thoại bạn bè</string>
+    <string name="add">Thêm</string>
+    <string name="phone_emptry">Số điện thoại không tồn tại.\n Vui lòng thử lại</string>
+    <string name="add_on">Đã thêm</string>
+    <string name="permission_contact">
+        <![CDATA[Chúng tôi cần bạn cho phép truy cập Danh bạ để giúp bạn tìm kiếm SĐT bạn bè, người thân nhanh hơn. Bạn có thể thay đổi sau bằng cách vào Cài đặt > Quyền truy cập > Danh bạ]]></string>
+    <string name="accetp_contact">Cấp quyền truy cập Danh bạ</string>
+    <string name="invite_game_des">
+        <![CDATA[Bạn yêu ơi, có game này hay lắm. Dễ chơi mà lại dễ trúng thưởng. Vào chơi cùng mình luôn nhé! https://mcredit-vn.onelink.me/XX1S/mcredit]]></string>
+    <string name="title_invite_game">
+        <![CDATA[Người bạn với SĐT <font color=\'#0A2851\'><b>%s</b></font> chưa có tài khoản trên AFC. Cùng gửi tới bạn ấy một lời mời tham dự sự kiện nào]]></string>
+    <string name="skip_invite">Để lúc khác</string>
+    <string name="send_invite">Gửi lời mời</string>
+    <string name="messenger">Messenger</string>
+    <string name="zalo">Zalo</string>
+    <string name="more">Khác</string>
+    <string name="payment_now">Thanh toán ngay</string>
+    <string name="title_activity_loan_registration">LoanRegistrationActivity</string>
+    <string name="provisional_intereset_rate">Lãi suất tạm tính</string>
+    <string name="monthly_installments">Khoản trả góp hàng tháng</string>
+    <string name="send_consultation">Đăng ký tư vấn vay</string>
+    <string name="send_registration">Gửi đăng ký</string>
+    <string name="loan_proposal_amount">Số tiền đề nghị vay</string>
+    <string name="loan_registration">Đăng ký khoản vay</string>
+    <string name="loan_regis_shk">Sổ hộ khẩu</string>
+    <string name="loan_regis_hdtd">Hóa đơn\ntiêu dùng</string>
+    <string name="loan_regishdld">Hợp đồng\nlao động</string>
+    <string name="loan_regis_skl">Sao kê lương</string>
+    <string name="loan_regis_bhnt">Hợp đồng\nBHNT</string>
+    <string name="registration_success">Đăng ký tư vấn thành công</string>
+    <string name="registration_success_subtitle">Hồ sơ vay nhanh của quý khách đã được tiếp nhận. Mcredit sẽ liên hệ với
+        quý khách trong thời gian sớm nhất. Trân trọng cảm ơn.
+    </string>
+    <string name="registration_document_bonus">Giảm thêm số tiền trả góp hàng tháng?</string>
+    <string name="hide_underline">Thu gọn</string>
+    <string name="regis_warning_subtitle">Kết quả tính toán sơ bộ khoản trả góp hàng tháng chỉ mang tính chất tham khảo và có thể sai lệch nhỏ so với kết quả tính toán thực tế.</string>
+    <string name="regis_warning_title">Quý khách lưu ý</string>
+    <string name="document_required">Tài liệu này là bắt buộc</string>
+    <string name="date_event_game_du_du">Đến %s -</string>
+    <string name="count_join_game_du_du">%s người chơi</string>
+    <string name="join">Tham gia ngay</string>
+    <string name="gift">Sự kiện ưu đãi</string>
+    <string name="url_term_pdf">
+        <![CDATA[https://drive.google.com/viewerng/viewer?embedded=true&url=https://mcredit.com.vn/dudu/MauHopDongChoVayTienMatThongThuong.pdf]]></string>
+    <string name="policy_url">https://mcredit.com.vn/dudu/Terms_Of_Use.html</string>
+    <string name="limit_amount">Hạn mức còn lại</string>
+    <string name="outstanding_balance_in_payment">Số tiền cần thanh toán trong kỳ</string>
+    <string name="fast_loan_registration">Đăng ký vay nhanh</string>
+    <string name="fast_loan_update_phone_description">Vui lòng cung cấp số điện thoại để bắt đầu đăng ký khoản vay
+    </string>
+    <string name="validation_password_rule_1">Mật khẩu chứa ít nhất 6 ký tự</string>
+    <string name="validation_password_rule_2">Bao gồm ký tự viết hoa và viết thường</string>
+    <string name="validation_password_rule_3">Bao gồm ký tự số</string>
+
+    <string name="exchange_day_turn_spin">Hôm nay đã đổi: &lt;font color="#0A73F0">%d lượt&lt;/font></string>
+    <string name="message_add_turn_spin">Vượt quá giới hạn đổi hôm nay</string>
+    <string name="you_are_have_colon">Bạn đang có:</string>
+    <string name="change_turn">Đổi lượt quay</string>
+    <string name="total_colon">Tổng cộng:</string>
+    <string name="max_turn_on_day">Giới hạn: %d lượt quay / ngày</string>
+    <string name="turn_game">Có &lt;font color="#0A2851">&lt;b>%d&lt;/b>&lt;/font> lượt quay</string>
+    <string name="turn_game_login">+%d lượt quay / ngày</string>
+    <string name="message_receive_lucky_spin">Tuyệt vời, bạn nhận được %d vòng quay miễn phí!</string>
+    <string name="continue_play">Chơi tiếp</string>
+    <string name="you_have_received">Bạn đã nhận được</string>
+    <string name="count_turn_spin">%d lượt quay</string>
+    <string name="count_point_game">SL: %d trái / giờ</string>
+    <string name="point_per_hour">%d trái / giờ</string>
+    <string name="harvest_papaya">Thu hoạch</string>
+    <string name="title_upgrade_seeds">Hm…m…</string>
+
+    <string name="message_receive_lucky_spin_second">Chúc mừng bạn hoàn thành nhiệm vụ điểm danh ngày hôm nay</string>
+    <string name="no_system">Chưa có trong hệ thống</string>
+    <string name="active">Chưa kích hoạt</string>
+    <string name="choose_friend"><![CDATA[Đã chọn: <b>%d</b>]]></string>
+    <string name="move_friends">Loại bỏ thành viên</string>
+    <string name="delete_des">Bạn có chắc chắn muốn loại bỏ các thành viên đã chọn ra khỏi đội của mình?</string>
+    <string name="no">Không</string>
+    <string name="delete">Loại bỏ</string>
+    <string name="list_friends">Danh sách đồng đội (%d/50)</string>
+    <string name="total_game_point_per_day">Nhận hôm nay:
+        <b>%d</b>
+    </string>
+    <string name="send_noti">Lời nhắc chơi game của bạn đã được chuyển đến các thành viên offline trong đội. Chúc bạn
+        tiếp tục chơi game vui vẻ
+    </string>
+    <string name="send_notify">Gửi lời nhắc</string>
+    <string name="reward_redemption">Đổi thưởng</string>
+    <string name="lockers">Tới tủ đồ</string>
+    <string name="content_reward_coupon_success">Phiếu đổi thưởng đã được lưu trong tủ đồ. Bạn có thể xem lại chi tiết
+        và cách thức nhận phần thưởng của mình tại đó.
+    </string>
+    <string name="congratulation">Chúc mừng</string>
+    <string name="congratulation_reward">Đăng ký nhận thưởng thành công</string>
+    <string name="title_reward_card_success">Bạn đã có 01 thẻ nạp điện thoại Viettel</string>
+    <string name="serial">Serial: %s</string>
+    <string name="share_card">Khoe ngay</string>
+    <string name="phone_recharge">Nạp ngay</string>
+    <string name="number_card_is">Mã số thẻ của bạn là:</string>
+    <string name="due_date">HSD: %s</string>
+    <string name="apple_airpod">Apple Airpod</string>
+    <string name="content_airpod">Wow! Airpod trong tầm tay. Mau mau tới tủ đồ đăng ký đổi thưởng ngay nào</string>
+    <string name="number_jigsaw_is">Số mảnh hiện có:</string>
+    <string name="number_jigsaw">d%/%s</string>
+    <string name="time_count">Thời gian còn lại</string>
+    <string name="title_rule">Thể lệ đổi thưởng</string>
+    <string name="content_rule_iphone">Thu thập đủ 10 mảnh ghép bằng cách mua hoặc được tặng, quý khách hàng sẽ có cơ
+        hội nhận được ngay 01 chiếc iPhone 12 128 GB thời thượng, trị giá lên đến 23.490.000 VND.
+        \n\nBên cạnh đó, bạn cũng có thể tặng lại mảnh ghép của mình cho một người bạn trong đội. Tuy nhiên, lưu ý rằng
+        bạn chỉ có thể mua mảnh ghép 1 lần duy nhất. Vậy nên hành động này tương đương với việc bạn sẽ mất đi cơ hội tự
+        mình sở hữu chiếc iPhone. Hãy cẩn trọng nhé…
+        \n\nNhanh chân lên nào, số lượng quà là có hạn !!!
+    </string>
+    <string name="jigsaw">Ghép mảnh</string>
+    <string name="content_rule_apple_watch">Thu thập đủ 06 mảnh ghép bằng cách mua hoặc được tặng, quý khách hàng sẽ có
+        cơ hội nhận được ngay 01 chiếc Apple Watch Series 6 GPS 40mm, trị giá lên đến 10.392.000 VND.
+        \n\nBên cạnh đó, bạn cũng có thể tặng lại mảnh ghép của mình cho một người bạn trong đội. Tuy nhiên, lưu ý rằng
+        bạn chỉ có thể mua mảnh ghép 1 lần duy nhất. Vậy nên hành động này tương đương với việc bạn sẽ mất đi cơ hội tự
+        mình sở hữu chiếc Apple Watch mơ ước. Hãy cẩn trọng nhé…
+        \n\nNhanh chân lên nào, số lượng quà là có hạn !!!
+    </string>
+    <string name="reward_description">Còn lại %d phần quà</string>
+    <string name="type_reward">Hình thức nhận thưởng</string>
+    <string name="transfer_bank">Qua tài khoản ngân hàng</string>
+    <string name="transfer_cash">Nhận thưởng trực tiếp</string>
+    <string name="note_transfer_cash">Chỉ áp dụng với KH tại Hà Nội</string>
+    <string name="choose_bank">Chọn ngân hàng</string>
+    <string name="input_bank">Nhập số tài khoản</string>
+    <string name="send_infor_bank">Gửi đăng ký</string>
+    <string name="warning_infor">Vui lòng điền thông tin đầy đủ</string>
+    <string name="bank_note">Vui lòng kiểm tra thật kỹ số tài khoản trước khi gửi đăng ký. Chúng tôi sẽ không chịu trách
+        nhiệm bồi hoàn nếu như có sai sót trong quá trình nhập liệu của bạn. Trân trọng cảm ơn.
+    </string>
+    <string name="search_bank">Tìm kiếm…</string>
+    <string name="address_cast">Địa điểm nhận thưởng</string>
+    <string name="address">Tầng 9–12 Tòa nhà MB Bank, Số 21 Cát Linh, Phường Cát Linh, Quận Đống Đa, Hà Nội</string>
+    <string name="email_support_detail">Email: dvkh@mcredit.com.vn</string>
+    <string name="cash_note">Hình thức nhận thưởng chỉ áp dụng đối với các khách hàng tại Hà Nội hoặc các vùng lân cận.
+        Nếu bạn là khách hàng tại địa phương khác, chúng tôi khuyến khích bạn sử dụng hình thức chuyển khoản qua số tài
+        khoản ngân hàng.
+    </string>
+    <string name="confirm_content1">Bạn chắc chắn muốn đổi</string>
+    <string name="note_500">500.000 VND</string>
+    <string name="content_500">Bạn đã nhận được phiếu đổi thưởng</string>
+    <string name="title_reward_500">Phần thưởng 500.000 VND</string>
+    <string name="items">Vật phẩm</string>
+    <string name="price">Giá:</string>
+    <string name="title_jigsaw">Đổi mảnh thành công</string>
+    <string name="title">Bạn đã nhận được</string>
+    <string name="number_phone">Số điện thoại</string>
+    <string name="note_jigsaw_send">Nhập số điện thoại của đồng đội bạn muốn tặng lại mảnh ghép này</string>
+    <string name="title_jigsaw_send">Tặng mảnh ghép</string>
+    <string name="content_phone_number">Số điện thoại bạn nhập không đúng. Vui lòng nhập lại.</string>
+    <string name="title_success_send_jigsaw">Tặng mảnh thành công</string>
+    <string name="content_success_send_jigsaw1">Bạn đã tặng thành công</string>
+    <string name="content_success_send_jigsaw2">cho người bạn có số điện thoại</string>
+    <string name="message_main_game">Hệ thống đang có lỗi\nVui lòng thử lại sau</string>
+    <string name="cancle">Hủy bỏ</string>
+    <string name="yes">Đồng ý</string>
+    <string name="step_1">Bấm nút thu hoạch để nhận về số trái đã tích lũy được trong ngày</string>
+    <string name="update_dudu">Nâng cấp hạt giống</string>
+    <string name="step_2">Bấm nút nâng cấp để tăng sản lượng trái có thể thu hoạch mỗi ngày</string>
+    <string name="than_tai">Vòng quay thần tài</string>
+    <string name="manager">Quản lý đội</string>
+    <string name="invalid_phone_invite">SĐT người giới thiệu phải khác SĐT người báo danh</string>
+    <string name="step_3">Cơ hội nhận iPhone 12 và nhiều phần quà hấp dẫn khác</string>
+    <string name="spin">Quay để nhận quà</string>
+    <string name="add_spin">Thêm lượt quay</string>
+    <string name="view_history">Xem lại lịch sử</string>
+    <string name="step_3_3">Kiểm tra lại các lượt quay và quà mà bạn đã nhận được</string>
+    <string name="game_daily_reward_title">Tuyệt! Bạn đã nhận được 1 \n lượt quay miễn phí</string>
+    <string name="send_jigsaw">Tặng mảnh</string>
+    <string name="register_change_gift">Đăng ký đổi thưởng (%d/%d)</string>
+    <string name="iphone_reward_title">iPhone 12 128GB</string>
+    <string name="watch_reward_title">Apple Watch S6 GPS 40mm</string>
+    <string name="fullnam_maxlength">Họ và tên không vượt quá 100 kí tự</string>
+    <string name="enter_name">Nhập Họ và tên của bạn</string>
+    <string name="enter_pass">Nhập mật khẩu</string>
+    <string name="register_game_success">Báo danh game thành công</string>
+    <string name="online">Online hôm nay:<b> %d</b>
+    </string>
+    <string name="number">%d</string>
+    <string name="game_my_rank">Xếp hạng của tôi</string>
+    <string name="increase_number">+%s</string>
+    <string name="decrease_number">-%s</string>
+    <string name="game_head_line_username">&lt;font color="#ACEB3A">%s&lt;/font>&#160;</string>
+    <string name="game_head_line_message">&#160;&lt;font color="#FFB918">%s&lt;/font>&#160; &#160; &#160; &#160;
+    </string>
+    <string name="reward_description_normal">Đã có %d người đăng ký</string>
+    <string name="no_search_contact">Không tìm thấy số điện thoại trong danh bạ. Vui lòng thử lại</string>
+    <string name="frequently_asked_questions">Câu hỏi thường gặp</string>
+    <string name="game_qa_description">Tổng hợp những thắc mắc của khách hàng \n liên quan tới sản phẩm và dịch vụ.
+    </string>
+    <string name="call">*100*%s#</string>
+    <string name="rating_height_accept">Đương nhiên là được</string>
+    <string name="rating_height_cancel">Không, cảm ơn</string>
+    <string name="description_rating">Trên thang điểm 5, bạn đánh giá trải nghiệm này xứng đáng được bao nhiêu?</string>
+    <string name="title_rating">Bạn thích Mcredit chứ?</string>
+    <string name="title_message_rating_low">Cảm ơn đánh giá của bạn.
+        \n Mọi phản hồi đều đáng trân trọng.</string>
+    <string name="title_message_rating_height">Tuyệt quá! Bạn xếp hạng chúng tôi
+        \ntrên chợ ứng dụng nhé?</string>
+    <string name="description_message_rating_low">Mcredit đã và đang làm việc chăm chỉ để mang đến bạn những trải nghiệm tốt hơn trong tương lai. Tiếp tục ủng hộ chúng tôi nhé!
+    </string>
+    <string name="ekyc_game_1">Chúng tôi cần xác minh danh tính của bạn để phục vụ cho quá trình trao thưởng sau này.
+    </string>
+    <string name="ekyc_game_2">Ngoài ra, việc xác thực này cũng cần thiết để giúp bạn:</string>
+    <string name="ekyc_singnature_title">Ký hợp đồng tại nhà</string>
+    <string name="ekyc_singnature">Ký hợp đồng vay tiền, trả góp ngay tại nhà mà không cần phải tới cửa hàng</string>
+    <string name="not_ekyc">Không thành công</string>
+    <string name="change_reward">Đổi mảnh ghép</string>
+    <string name="reward_step_1">Số người đã đăng ký đổi thưởng, tiến trình sưu tầm mảnh ghép. Chọn để đi tới màn hình
+        đổi mảnh ghép.
+    </string>
+    <string name="reward_hilghline">Đổi thưởng trực tiếp</string>
+
+    <string name="reward_step_2">Giá và số lần giới hạn có thể đổi của mỗi phần thưởng. Bấm nút “Đổi” để đổi thưởng.
+    </string>
+    <string name="url_game_rule_spin">https://mcredit.com.vn/static/rule-wheel.html</string>
+    <string name="url_game_rule_du_du">https://mcredit.com.vn/static/rule-game.html</string>
+    <string name="game_share_title">Gửi thông điệp dưới đây tới bạn bè, người thân. Mỗi lời mời thành công, đội có thêm
+        1 thành viên, thì tỷ lệ trúng thưởng của bạn lại cao thêm một bậc đấy.</string>
+    <string name="game_share_description">Bạn yêu ơi, có game này hay lắm. Dễ chơi mà lại dễ trúng thưởng. Vào chơi cùng
+        mình luôn nhé!
+        \nhttps://mcredit-vn.onelink.me/XX1S/mcredit</string>
+    <string name="content">Nội dung</string>
+
+    <string name="my_inventory">Tủ đồ của tôi</string>
+    <string name="inventory_rewards">Phần quà</string>
+    <string name="inventory_voucher">Voucher</string>
+    <string name="inventory_bonus">Ưu đãi</string>
+    <string name="my_inventory_des">Nơi lưu giữ các phần quà, voucher…</string>
+    <string name="my_rewards">Phần quà của tôi</string>
+    <string name="apply_now">Dùng ngay</string>
+    <string name="inventory_expried">Đã hết hạn</string>
+    <string name="inventory_detail_reward">Chi tiết quà tặng</string>
+    <string name="inventory_detail_description_title">Chúc mừng bạn được nhận phần quà đặc biệt: 01 Phiếu đổi iPhone 12
+        128GB. Vui lòng chờ đến khi sự kiện kết thúc để biết kết quả nhận thưởng nhé. 🎉
+    </string>
+    <string name="inventory_condition_reward">Điều kiện nhận thưởng:</string>
+    <string name="invent_detail_rule_1">1. Quà tặng sẽ được xác nhận đổi quà thành công và tiến hành trao thưởng sau khi
+        sự kiện kết thúc dựa trên danh sách đăng ký đổi quà.
+    </string>
+    <string name="invent_detail_rule_2">2. Nếu số lượng người chơi đăng ký đổi quà nhiều hơn số lượng quà thì sẽ ưu tiên
+        trao thưởng cho những người chơi đăng ký đổi quà sớm nhất.
+    </string>
+    <string name="invent_detail_rule_3">3. Trường hợp người chơi đăng ký đổi quà thành công nhưng vi phạm quy định của
+        sự kiện hoặc không đáp ứng được điều kiện đổi/nhận quà thì quà tặng sẽ được tra cho người chơi đăng ký hợp lệ
+        tiếp theo.
+    </string>
+    <string name="invent_detail_rule_4">4. Chương trình có thể kết thúc trước thời hạn nếu hết ngân sách khuyến mãi; thẻ
+        quà chưa sử dụng sẽ tự động được thu hồi.
+    </string>
+    <string name="inventory_empty">Giỏ đồ của bạn còn trống</string>
+    <string name="info_phone_card">Thông tin thẻ</string>
+    <string name="viettel_phonecard">Thẻ nạp Viettel</string>
+    <string name="share">Chia sẻ</string>
+    <string name="share_phone_card">Chia sẻ thẻ nạp</string>
+    <string name="expried_date">Hạn sử dụng: %s</string>
+    <string name="expried_after">Hết hạn sau %i ngày</string>
+    <string name="inventory_congrat">Chúc mừng bạn được nhận phần quà đặc biệt:01 %s. Vui lòng chờ đến khi sự kiện kết
+        thúc để biết kết quả nhận thưởng nhé. 🎉
+    </string>
+    <string name="get_data_fail">Gặp lỗi khi lấy dữ liệu</string>
+    <string name="notice_login_linked">Tài khoản đăng ký bằng SĐT [%s] đã được link với tài khoản %s khác. Để đồng
+        bộ vui lòng ngắt liên kết với %s trước đó
+    </string>
+    <string name="link_account_v2">Tài khoản đăng ký bằng SĐT [%s] đã được link với tài khoản facebook khác. Để đồng bộ
+        vui lòng ngắt liên kết với facebook trước đó
+    </string>
+    <string name="title_iphone12">Ghép mảnh đổi Iphone</string>
+    <string name="title_apple_watch">Ghép mảnh đổi Apple Watch</string>
+    <string name="content_reward_limit_first">Hiện đã có %s người đăng ký đổi</string>
+    <string name="you_are_receive">Bạn nhận được</string>
+    <string name="game_daily_reward_description">Điểm danh liên tiếp 5 ngày để nhận \n thêm 4 lượt quay nhé</string>
+    <string name="game_rule_url">http://dksd.mcredit.com.vn/MCDudu/rule_game.html</string>
+    <string name="game_rule_title">Thể lệ chương trình</string>
+    <string name="txtGame2">và hàng ngàn quà tặng khác với tổng trị giá giải thưởng lên đến 500 triệu đồng</string>
+    <string name="game_description_history">Chưa có lịch sử</string>
+    <string name="game_spin_limit_turn_empty">Hết lượt quay</string>
+
+
+    <string name="edt_hint_input_phone_game" translatable="false">Nhập số điện thoại của bạn
+    </string>
+    <string name="new_registration">Đăng ký khoản vay mới</string>
+    <string name="distance_detail"><![CDATA[Phạm vi tìm kiếm: <b>%d km</b> xung quanh]]></string>
+    <string name="cannot_open_distance">Không thể mở rộng thêm</string>
+    <string name="otp_fail">Mã OTP không chính xác. Vui lòng kiểm tra lại!</string>
+    <string name="please_complete">Vui lòng nhập đầy đủ các thông tin dưới đây để hoàn tất đăng ký</string>
+    <string name="thanks_complete">Cảm ơn bạn vì đã đi tới bước này. Cố gắng chút nữa nhé, đây đã là bước cuối cùng
+        rồi…
+    </string>
+    <string name="wait_for_disbursement">Chờ giải ngân</string>
+    <string name="loan_watting">Khoản vay đang chờ giải ngân</string>
+
+    <string name="no_friends">Bạn chưa có đồng đội trong đội</string>
+    <string name="friends_online">Tất cả các thành viên trong đội của bạn hôm nay đã online</string>
+    <string name="passed">Đã qua</string>
+    <string name="upcoming">Sắp tới</string>
+    <string name="overall">Tổng thể</string>
+    <string name="title_payment">Lịch trả nợ</string>
+    <string name="sync">Đồng bộ</string>
+    <string name="des_permission_calendar"><![CDATA[Chúng tôi cần bạn cho phép truy cập Lịch để có thể đồng bộ hóa lịch trả nợ giúp bạn. Bạn có thể thay đổi sau bằng cách vào Cài đặt > Quyền truy cập > Lịch]]></string>
+    <string name="title_permission_calendar">Cấp quyền truy cập Lịch</string>
+    <string name="sync_calendar">Đồng bộ lịch trả nợ</string>
+    <string name="des_sync">Chọn những kỳ trả nợ mà bạn mong muốn đồng bộ với lịch nhắc trên điện thoại</string>
+    <string name="select_all">Chọn tất cả</string>
+    <string name="des_sync_aler">Đồng bộ lịch thành công. Bạn có thể truy cập ứng dụng Lịch trên điện thoại để kiểm tra</string>
+    <string name="nodata_payment_schedule">Không có dữ liệu</string>
+    <string name="please_choose_payment">Bạn chưa chọn lần thanh toán nào</string>
+    <string name="vnd">VND</string>
+    <string name="limit_allow">Hạn mức cho vay tối đa</string>
+    <string name="game_spin_card_title">Chúc mừng nha, bạn \nđã quay trúng</string>
+    <string name="game_spin_IP_title">Quá tuyệt vời, bạn đã \nquay trúng</string>
+    <string name="link">Liên kết</string>
+    <string name="total_payment_search">Tổng số tiền cần thanh toán</string>
+    <string name="data_updating_loan">Dữ liệu đang cập nhật</string>
+    <string name="content_loan_detail">Dữ liệu đang được cập nhật. Quý khách vui lòng quay lại sau.</string>
+    <string name="history">Lịch sử</string>
+
+    <string name="member_ranking_v2">Xếp hạng hội viên</string>
+    <string name="rank_tiem_nang">Hội viên tiềm năng</string>
+    <string name="you_coin">Bạn đang có</string>
+    <string name="swich">Đổi thưởng</string>
+    <string name="history_coin">Xem lịch sử nhận xu</string>
+    <string name="nhan_xu">Cách nhận xu</string>
+    <string name="rank_v2">Quyền lợi xếp hạng</string>
+    <string name="member_sliver">Hội viên Bạc</string>
+    <string name="member_gold">Hội viên Vàng</string>
+    <string name="member_bach_kim">Hội viên Bạch kim</string>
+    <string name="goalsaving_coin">Tổng số xu đã từng tích lũy</string>
+    <string name="open_rank">Bạn đã mở khóa hạng này</string>
+    <string name="close_rank">Bạn chưa mở khoá hạng này</string>
+    <string name="insu_account">Bảo hiểm tài khoản</string>
+    <string name="support">Ưu tiên hỗ trợ</string>
+    <string name="support_v2">Ưu tiên xét duyệt hồ sơ</string>
+    <string name="budget">Hạn mức vay tăng 10.000.000 VND</string>
+    <string name="coin">Xu</string>
+    <string name="unlink_fb_title">Hủy liên kết Facbook</string>
+    <string name="unlink_fb_des">Bạn có chắc chắn muốn hủy liên kết facebook? Tất cả thông tin liên quan tới facebook
+        này sẽ bị xóa
+    </string>
+    <string name="unlink_zalo_title">Hủy liên kết Zalo</string>
+    <string name="unlink_zalo_des">Bạn có chắc chắn muốn hủy liên kết zalo? Tất cả thông tin liên quan tới zalo
+        này sẽ bị xóa
+    </string>
+    <string name="login_social_subtile">Để đảm bảo tính bảo mật, quý khách vui lòng đăng nhập lại bằng tài khoản số điện
+        thoại đã được tạo trước đó.
+    </string>
+    <string name="please_try_again">Xin vui lòng thử lại</string>
+    <string name="turn_spin">lượt rung</string>
+    <string name="have">Có</string>
+
+    <string name="gift_share_description">KH: %s</string>
+    <string name="content_loan_detail_pending">Hệ thống đang xử lý hồ sơ của bạn. Vui lòng quay lại sau.</string>
+    <string name="content_loan_detail_watting">Quý khách vui lòng ra quầy thu chi hộ gần nhất để giải ngân khoản vay.
+    </string>
+    <string name="string_dob">Ngày, tháng, năm sinh</string>
+    <string name="recheck">Kiểm tra lại</string>
+    <string name="title_activity_main_new">MainNewActivity</string>
+    <string name="approve_infor">Xác nhận thông tin</string>
+    <string name="check_infor">Kiểm tra thông tin</string>
+    <string name="upcomming">Sắp diễn ra...</string>
+    <string name="share_qr_code">Chia sẻ qua mã QR</string>
+    <string name="outstanding_balance_loan">Dư nợ gốc hiện tại</string>
+    <string name="category_loan">Hình thức vay vốn</string>
+    <string name="limit">Hạn mức</string>
+    <string name="cash">Món</string>
+    <string name="mail_box">Hộp thư</string>
+    <string name="only_news">Tin Tức</string>
+    <string name="discount">Khuyễn mãi</string>
+
+    <string name="gratitude_title">"🎁 Tri ân KH thân thiết - Vì bạn xứng đáng "</string>
+    <string name="gratitude_content">Mcredit trân trọng giới thiệu CT tri ân khách hàng thân thiết \"Vì bạn xứng đáng\"
+        diễn ra từ 02/06 đến 27/08/2021.\n\nQuý khách hàng có thể tích điểm để đổi những phần quà vô cùng hấp dẫn. Khám phá
+        ngay!\n\n👉 Để biết thêm chi tiết xin liên hệ: 1900 63 67 69
+    </string>
+    <string name="promotion_detail">Chi tiết khuyến mại</string>
+    <string name="delete_all_noti_title">Xóa tất cả thông báo?</string>
+    <string name="delete_all_noti_subTitle">Khi bạn xóa tất cả thông báo, bạn sẽ không còn có thể phục hồi lại nữa</string>
+    <string name="delete_all_accept">Xóa tất cả</string>
+    <string name="notification_inbox_empty">Hộp thư trống</string>
+    <string name="other">Khác</string>
+    <string name="count_join_des">Hàng ngàn phần quà đang chờ đón</string>
+    <string name="loan_detail_title_delay_payment">Thông tin chậm thanh toán</string>
+    <string name="loan_detail_day_delay_payment">Số ngày chậm thanh toán</string>
+    <string name="loan_detail_punish_delay_payment">Phạt quá hạn thanh toán</string>
+    <string name="total">Tổng cộng</string>
+    <string name="loan_detail_late_payment">Chậm thanh toán</string>
+    <string name="loan_detail_late_payment_dot">• Chậm thanh toán</string>
+    <string name="current_principal_balance">Dư nợ gốc hiện tại</string>
+    <string name="maximum_loan_limit">Hạn mức vay tối đa</string>
+    <string name="txt_warning_late_payment">Bạn đã chậm thanh toán %d ngày</string>
+    <string name="day_late_payment">%s ngày</string>
+    <string name="day_late_payment_message">Càng để lâu càng tốn kém đấy bạn ơi! Mình thấy mà xót thay luôn nè 😥 </string>
+    <string name="select_action">Chọn hành động</string>
+    <string name="save_to_device">Lưu về máy</string>
+    <string name="send_to_email">Gửi email</string>
+    <string name="message_export_file">Đang tải xuống hợp đồng. Xem thông báo để biết chi tiết quá trình.</string>
+    <string name="enter_phone_invite">Nhập SĐT người giới thiệu</string>
+    <string name="enter_code_invite">Nhập mã người giới thiệu</string>
+    <string name="des_retry_endcase">Vì lý do kỹ thuật nên quá trình ký vẫn chưa thể hoàn tất. Vui lòng chọn “Thử lại” để hoàn tất quá trình.</string>
+    <string name="brithday">Ngày, tháng, năm sinh</string>
+    <string name="retry_error">Hồ sơ của Quý khách chưa thể hoàn tất lúc này. Vui lòng thử lại sau hoặc liên hệ 1900 63 67 69 để biết thêm chi tiết.</string>
+    <string name="title_confirm">Xác nhận thông tin</string>
+    <string name="description_confirm">Bạn có chắc chắn thông tin chính xác? Nếu chọn “Xác nhận”, Mcredit sẽ được cập nhật thông tin vào tài khoản của bạn.</string>
+    <string name="confirm_endcase">Hợp đồng đã được ký nhưng chưa hoàn thành, mời bạn chọn \'Xác thực\'</string>
+    <string name="econtract_1">Hợp đồng của bạn đã được ký. Tuy nhiên, vì lý do kỹ thuật nên quá trình vẫn chưa thể kết thúc. Vui lòng chọn “Hoàn tất” để hoàn tất mọi thủ tục.</string>
+    <string name="confirm_contract">Xác nhận ký hợp đồng</string>
+    <string name="finish_contract">Hoàn tất ký hợp đồng</string>
+    <string name="singature_contract">Hợp đồng đã được ký thành công</string>
+    <string name="singnature_contract_fail">Hợp đồng đang bị lỗi trạng thái, mời bạn liên hệ NVKD để được hỗ trợ. Hotline: 1900 63 67 69</string>
+    <string name="un_choose_all">Bỏ chọn tất cả</string>
+    <string name="code_invite_error">Mã giới thiệu không đúng định dạng</string>
+    <string name="retry">Thử lại</string>
+    <string name="game_my_team">Đội của tôi</string>
+
+    <string name="game_list_point">Điểm danh</string>
+    <string name="received">Đã nhận</string>
+
+    <string name="member_ranking_earn_point">Kiếm thêm xu bằng cách nào?</string>
+    <string name="member_ranking_earn_point_description">Tất cả khách hàng đều có thể kiếm thêm xu bằng cách giới thiệu bạn bè, người thân đăng ký tài khoản Mcredit hoặc thực hiện các nhiệm vụ dưới đây</string>
+    <string name="mission">Nhiệm vụ</string>
+    <string name="limit_point">Giới hạn</string>
+    <string name="point_bonus">Xu thưởng</string>
+    <string name="member_ranking_earn_point_message">*Danh sách nhiệm vụ và số điểm thưởng có thể được điều chỉnh bất kỳ lúc nào để đảm bảo mang đến giá trị tốt nhất cho những khách hàng thân thiết của Mcredit</string>
+    <string name="member_ranking_history_title">Lịch sử nhận xu</string>
+    <string name="app_point_received">Xu đã nhận</string>
+    <string name="app_point_used">Xu đã dùng</string>
+    <string name="month">Tháng %s</string>
+    <string name="app_point_value">%s xu</string>
+    <string name="error_category_null">Có lỗi xảy ra, vui lòng liên hệ hotline</string>
+    <string name="game_my_team_what">Đây là gì?</string>
+    <string name="game_my_team_description_title">Kề vai sát cánh</string>
+    <string name="game_view_rule">Xem thể lệ</string>
+    <string name="add_friends_group">Chúc mừng bạn đã thêm thành viên vào đội thành công!</string>
+    <string name="send_invite_orther">Gửi lời mời qua</string>
+    <string name="request_disbursement">Yêu cầu giải ngân</string>
+    <string name="request_disbursement_amount_total">Tổng số tiền giải ngân</string>
+    <string name="request_disbursement_amount">Số tiền yêu cầu giải ngân</string>
+    <string name="request_disbursement_amount_if_have_insurance">Số tiền yêu cầu giải ngân (chưa bao gồm phí bảo hiểm nếu có)</string>
+    <string name="disbursement_rule_validation">*Số tiền giải ngân tối thiểu là %s VND và tối đa không vượt quá
+        hạn mức vay còn lại %s VND
+    </string>
+    <string name="disbursement_method">Hình thức giải ngân</string>
+    <string name="change">Thay đổi</string>
+    <string name="select_method_disbursement">Chọn hình thức giải ngân</string>
+    <string name="add_bank_number">Thêm số tài khoản</string>
+    <string name="add_available_bank_number">Thêm tài khoản sẵn có</string>
+    <string name="create_new_account">Tạo tài khoản mới</string>
+    <string name="add_mb_account">Thêm tài khoản MB</string>
+    <string name="input_bank_number_des">Để đảm bảo an toàn bảo mật, chúng tôi chỉ chấp nhận giải ngân qua tài khoản của
+        người đứng tên trên hợp đồng vay vốn.
+    </string>
+    <string name="bank_account_number">Số tài khoản</string>
+    <string name="edt_hint_input_bank_number">Nhập số tài khoản</string>
+    <string name="confirm_request_disbursement">Xác nhận yêu cầu giải ngân</string>
+    <string name="disbursement_total_amount">Tổng số tiền giải ngân</string>
+    <string name="insurrance_disbursement_amount">Phí bảo hiểm</string>
+    <string name="request_disbursement_person">Người yêu cầu</string>
+    <string name="cccd_cmtnd">CCCD/CMND</string>
+    <string name="disbursement_success">Yêu cầu giải ngân\nthành công!</string>
+    <string name="disbursement">Giải ngân</string>
+    <string name="disbursement_account">Tài khoản giải ngân</string>
+    <string name="info_detail_contact">Thông tin chi tiết liên hệ</string>
+    <string name="please_input_disbursement_amount">Vui lòng nhập số tiền giải ngân</string>
+    <string name="disbursement_invalid_min">Chưa đạt giá trị tối thiểu</string>
+    <string name="disbursement_invalid_max">Vượt quá hạn mức cho phép</string>
+    <string name="request_disbursement_fail">Yêu cầu giải ngân không\nthành công!</string>
+    <string name="request_disbursement_fail_sub">Vui lòng thử lại hoặc chọn giải ngân qua các kênh khác như: Ứng dụng MB Bank hoặc kênh Dịch vụ khách hàng của Mcredit.</string>
+    <string name="cannot_disbursement">Không thể giải ngân</string>
+    <string name="cannot_disbursement_des">Bạn đang bị chậm thanh toán kỳ trước. Vui lòng thanh toán dư nợ quá hạn trước khi có thể tiếp tục yêu cầu giải ngân.</string>
+    <string name="mb_method">Qua tài khoản MB Bank</string>
+    <string name="partner_method">Qua điểm chi hộ</string>
+    <string name="vnpost_viettel_mb">VNPOST / VIETTEL</string>
+    <string name="invalid_account_number">Số tài khoản không tồn tại trên hệ thống</string>
+    <string name="account_bank_name">Chủ tài khoản: %s</string>
+    <string name="disbursement_add_account_fail">Không thể giải ngân qua số tài khoản này</string>
+    <string name="disbursement_validate_account">Thông tin của số tài khoản %s không khớp với chi tiết trên hợp đồng vay vốn. Vui lòng kiểm tra và thử lại, hoặc liên hệ hotline 1900 63 67 69 để được hỗ trợ.</string>
+
+    <string name="enter_location_name">Nhập vị trí bạn muốn tìm</string>
+    <string name="search_near">Tra cứu điểm giao dịch</string>
+    <string name="nop_tien">Nộp tiền</string>
+    <string name="nhan_tien">Nhận tiền</string>
+    <string name="load">Tải lại</string>
+    <string name="transaction_nearly">Điểm giao dịch quanh đây</string>
+    <string name="filter">Bộ lọc</string>
+    <string name="pham_vi_tim_kiem">Phạm vi tìm kiếm</string>
+    <string name="nearly_by">Bán kính %dkm</string>
+    <string name="all">Tất cả</string>
+    <string name="setup">Thiết lập lại</string>
+    <string name="apply_filter">Áp dụng bộ lọc</string>
+    <string name="km">%dkm</string>
+    <string name="not_search">Không tìm thấy kết quả</string>
+    <string name="good_code">Vui lòng nhập chính xác số khung, số máy đã được ghi trên hóa đơn của bạn.</string>
+    <string name="so_khung">Số Khung</string>
+    <string name="enter_so_khung">Nhập số khung</string>
+    <string name="so_may">Số máy</string>
+    <string name="enter_so_may">Nhập số máy</string>
+    <string name="enter_good_code">Nhập số khung, số máy</string>
+    <string name="enter_name_not">Vui lòng nhập thông tin</string>
+    <string name="validate_number">Vui lòng nhập đúng định dạng 8–30 ký tự chữ và số</string>
+    <string name="delete_all_title">Xóa thông báo</string>
+    <string name="delete_all_des">Bạn có chắc chắn muốn xóa những thông báo đã chọn?</string>
+    <string name="read_all_title">Đọc tất cả thông báo</string>
+    <string name="read_all_des">Bạn có muốn đánh dấu tất cả các thông báo là đã đọc?</string>
+    <string name="delete_all_choice">Xóa mục đã chọn</string>
+    <string name="root_message">Vì lý do bảo mật nên chúng tôi từ chối cung cấp dịch vụ cho những thiết bị đã root</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="no_loan">Số CMND/CCCD %s \nhiện chưa có khoản vay nào</string>
+    <string name="month_before">%s Tháng</string>
+    <string name="type_cash">Tiền mặt</string>
+    <string name="type_car">Mua xe</string>
+    <string name="type_phone_card">Mua điện thoại</string>
+    <string name="type_credit_card">Thẻ tín dụng</string>
+    <string name="type_furniture">Mua nội thất</string>
+    <string name="type_cosmetic">Mua mỹ phẩm</string>
+    <string name="myAlphaNumeric">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789</string>
+    <string name="note_complete_payment">*Lưu ý số tiền này chỉ mang tính chất tham khảo không có hiệu lực tất toán, nếu Quý khách có nhu cầu tất toán vui lòng gọi 1900 63 67 69 bấm phím 0 để gặp trực tiếp tổng đài viên.</string>
+    <string name="refer_warning_title">Mã người giới thiệu</string>
+    <string name="refer_warning_subtitle">Mã giới thiệu có thể là số điện thoại của người giới thiệu bạn hoặc mã nhân viên nếu người đó là nhân viên của Mcredit</string>
+    <string name="invalid_refer_code">Mã giới thiệu không hợp lệ. Vui lòng nhập lại.</string>
+    <string name="share_default_message">Chia sẻ không thành công</string>
+    <string name="disbursement_account_no_empty_des">*Vui lòng chọn “Thay đổi” hình thức giải ngân để thêm vào một tài khoản mới, hoặc liên hệ 1900 63 67 69 để được hỗ trợ.</string>
+    <string name="disbursement_empty_account_no">Không tìm thấy tài khoản giải ngân</string>
+    <string name="info_card">Thông tin thẻ</string>
+    <string name="budget_card">Hạn mức thẻ</string>
+    <string name="position_card">Hạng thẻ</string>
+    <string name="number_card">Số hợp đồng</string>
+    <string name="date_public">Ngày phát hành thẻ</string>
+    <string name="expire_date">Thời hạn thẻ</string>
+    <string name="product">Loại sản phẩm</string>
+    <string name="add_card">Địa chỉ nhận thẻ</string>
+    <string name="info_person">Thông tin chủ thẻ</string>
+    <string name="dvkh_email">dvkh@mcredit.com.vn</string>
+    <string name="login_with_device">Đăng nhập bằng bảo mật thiết bị</string>
+    <string name="title_bimetric">Đăng nhập bằng bảo mật thiết bị</string>
+    <string name="subtitle_biometric">Vui lòng xác thực để tiếp tục</string>
+    <string name="biomatric_title">Đăng nhập bằng bảo mật thiết bị</string>
+    <string name="note_finger">Sử dụng khuôn mặt hoặc vân tay</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_bimetric_no_available">Không thể kích hoạt tính năng</string>
+    <string name="des_bimetric_no_available">Quý khách chưa kích hoạt tính năng bảo mật vân tay/khuôn mặt trên thiết bị. Vui lòng thiết lập trên thiết bị trước, sau đó thử lại</string>
+    <string name="goto_setting">Tới cài đặt</string>
+    <string name="input_pass_to_confirm">Vui lòng nhập mật khẩu để xác nhận</string>
+    <string name="confirm_pass">Xác nhận mật khẩu</string>
+    <string name="onetime_fail">Mật khẩu không chính xác. Bạn còn 1 lần  thử lại.</string>
+    <string name="pass_fail">Mật khẩu không chính xác</string>
+    <string name="fail_bio_des">Bạn đã nhập sai mật khẩu quá nhiều lần. Kích hoạt đăng nhập bằng bảo mật thiết bị không thành công. Vui lòng thử lại sau.</string>
+    <string name="biomatric_title_success">Kích hoạt thành công</string>
+    <string name="biomatric_note_success">Quý khách có thể sử dụng khuôn mặt hoặc vân tay để đăng nhập ứng dụng.</string>
+    <string name="permission_biometric">Bật tính năng đăng nhập bằng bảo mật của thiết bị</string>
+    <string name="description_biometric">Sử dụng FaceID hoặc Vân tay để mở khoá ứng dụng dễ dàng hơn. Bạn cũng có thể bật/tắt tính năng này trong Cài đặt.</string>
+    <string name="text_fail_qr">Hình ảnh giấy tờ chưa rõ nét. Hãy đảm bảo ảnh chụp của bạn không bị mờ, loá sáng hay mất góc và vui lòng thử lại. Trân trọng cảm ơn.</string>
+    <string name="text_fail_ocr">Có một vài nguyên nhân dẫn đến hình ảnh nhận diện không phải chứng từ hợp lệ. Vui lòng kiểm tra và thử lại.</string>
+    <string name="text_fail_ekyc">Thông tin xác minh không hợp lệ, vui lòng thực hiện lại. Trân trọng cảm ơn. \nHotline 1900 63 67 69</string>
+    <string name="title_close_bimetric">Tắt tính năng đăng nhập bằng bảo mật thiết bị</string>
+    <string name="des_close_bimetric">Bạn có chắc chắn muốn tắt tính năng này?</string>
+    <string name="biometric_not_register">Tính năng chưa kích hoạt</string>
+    <string name="des_biometric_not_register">Bạn chưa kích hoạt tính năng đăng nhập bằng vân tay/khuôn mặt. Vui lòng kích hoạt trong phần “Cài đặt” của ứng dụng.</string>
+
+    <string name="important">Quan trọng</string>
+    <string name="preferential">Ưu đãi</string>
+    <string name="off">Tắt</string>
+
+    <string name="warning">Lưu ý: Nghiêm cấm sử dụng CMND/CCCD giả mạo, không chính chủ. Khách hàng chịu hoàn toàn trách nhiệm trước pháp luật về hình ảnh CMND/CCCD đã cung cấp</string>
+    <string name="type_indentity">Loại giấy tờ</string>
+    <string name="number_indentity">Số giấy tờ tùy thân</string>
+    <string name="home_town">Nguyên quán</string>
+    <string name="address_live">Nơi ĐKHK thường trú</string>
+    <string name="title_confirm_ekyc">Kiểm tra thông tin xác thực</string>
+    <string name="note_ekyc">Hãy chắc chắn rằng những thông tin dưới đây khớp với giấy tờ của bạn. Nếu có sai sót, vui lòng thử chụp hình ảnh mới.</string>
+    <string name="edit">Sửa</string>
+    <string name="title_edit_confirm_ekyc">Chỉnh sửa thông tin xác thực</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="edit_infor_edit_ekyc">Bạn muốn chỉnh sửa thông tin?</string>
+    <string name="des_edit_infor_edit_ekyc">Nếu chỉnh sửa, thông tin của bạn sẽ được chuyển sang bộ phận thẩm định để phê duyệt trực tiếp. Thời gian phê duyệt có thể mất từ 3-5 ngày làm việc. Vẫn tiếp tục?</string>
+    <string name="title_next_ekyc">Xác nhận của người gửi thông tin xác thực</string>
+    <string name="title_note_ekyc">Trước khi gửi thông tin cho bộ phận thẩm định, chúng tôi cần bạn xác nhận</string>
+    <string name="detail_note_ekyc">Tôi cam kết những thông tin, hình ảnh đã cung cấp là chính xác, hợp pháp và không có thông tin nào bị che giấu hoặc làm sai lệch.</string>
+    <string name="hotline_support">Cần trợ giúp xin vui lòng liên hệ: 1900 63 67 69</string>
+    <string name="title_intro_ekyc">Xác thực tài khoản điện tử là gì?</string>
+    <string name="text1_ekyc">Xác thực tài khoản điện tử là quy trình xác minh
+dựa trên hình ảnh Giấy tờ tùy thân (Chứng minh nhân dân/Căn cước công dân) và hình ảnh khuôn mặt Khách hàng cung cấp theo hướng dẫn thực hiện trên ứng dụng Mcredit.
+
+\n\nXác thực tài khoản điện tử thông qua công nghệ số với các thao tác đơn giản để giúp Khách hàng có thể sử dụng các sản phẩm/dịch vụ tại Mcredit một cách nhanh chóng và thuận tiện hơn.</string>
+    <string name="title_intro_ekyc_2">Vì sao cần xác thực tài khoản điện tử?</string>
+    <string name="text2_ekyc">Theo thông tư 23 của Ngân hàng Nhà nước Việt Nam, việc xác thực thông tin người dùng nhằm mục đích tăng cường bảo mật các giao dịch tài chính, giúp xây dựng một nền tảng giảm thiểu gian lận, trộm cắp danh tính, “rửa tiền” và các hoạt động khác. Việc này cũng nhằm bảo vệ quyền lợi cho chính chủ tài khoản.\n\nVới khách hàng của Mcredit, bạn chỉ cần chuẩn bị CMND/CCCD còn hiệu lực pháp lý để thực hiện việc xác thực tài khoản. Theo đó chỉ cần mở ứng dụng và thực hiện theo hướng dẫn của hệ thống là việc xác thực tài khoản điện tử đã hoàn tất.\n\nViệc xác thực tài khoản điện tử sẽ giúp:</string>
+    <string name="text3_check_ekyc">Xác minh danh tính của người sử dụng, khẳng định người này là chủ sở hữu của tài khoản ứng dụng Mcredit. Bảo mật cho khách hàng khi sử dụng ứng dụng Mcredit.</string>
+    <string name="text4_check_ekyc">Bảo mật cho khách hàng khi sử dụng ứng dụng Mcredit
+        - Tài chính thông minh.</string>
+    <string name="text5_check_ekyc">Giảm thiểu các hành động gian lận, trộm cắp danh tính, rửa tiền và các hoạt động phạm pháp khác.</string>
+    <string name="title_intro_ekyc_3">Những lợi ích khi xác thực tài khoản điện tử</string>
+    <string name="text3_ekyc">Việc xác thực tài khoản diễn ra vô cùng nhanh chóng và dễ dàng. Sau khi hoàn tất việc xác thực tài khoản điện tử, khách hàng sẽ nhận được những lợi ích sau:</string>
+    <string name="text6_check_ekyc">Đảm bảo an toàn và bảo mật tối đa cho tài khoản ứng dụng</string>
+    <string name="text7_check_ekyc">Được hưởng các chương trình khuyến mãi hấp dẫn từ Mcredit</string>
+    <string name="text8_check_ekyc">Được sử dụng đầy đủ các tiện ích và dịch vụ trên ứng dụng Mcredit - Tài chính thông minh.</string>
+    <string name="title_intro_ekyc_4">Hướng dẫn xác thực tài khoản điện tử trong 3 bước</string>
+    <string name="text4_ekyc">Để xác thực tài khoản bạn thực hiện theo hướng dẫn dưới đây:
+
+\n\n<b>Bước 1:</b> Chuẩn bị sẵn giấy tờ tùy thân còn hiệu lực. Các loại giấy tờ hợp lệ dùng để xác thực tài khoản là: Chứng minh nhân dân, Căn cước công dân.
+
+\n\n<b>Bước 2:</b> Mở ứng dụng Mcredit, chọn Xác thực ngay
+
+\n\n<b>Bước 3:</b> Chụp ảnh chân dung theo hướng dẫn
+
+\n\n<b>Bước 4:</b> Chụp ảnh mặt trước và mặt sau giấy tờ
+
+\n\n<b>Bước 5:</b> Kiểm tra, nhập thông tin cá nhân còn thiếu, sửa đổi nếu có sai sót và tiến hành xác thực.
+        \n\nSau khi xác thực tài khoản, quý khách hàng sẽ an tâm hơn vì đã xác minh chính chủ cho tài khoản, giúp bảo vệ khách hàng trong các hoạt động giao dịch, thanh toán, tránh bị lừa đảo.</string>
+    <string name="ekyc_title_intro">Tính năng có yêu cầu cần xác thực tài khoản</string>
+    <string name="ekyc_des_intro">Vì lý do bảo mật, quý khách vui lòng xác thực thông tin tài khoản trước khi có thể sử dụng tính năng này. Trân trọng cảm ơn.</string>
+    <string name="what_ekyc">Xác thực tài khoản là gì?</string>
+    <string name="more_infor">Tìm hiểu thêm</string>
+    <string name="des_ekyc_profile">Xác thực tài khoản ngay để tăng độ an toàn khi sử dụng ứng dụng</string>
+    <string name="note_ekyc_fail">Cần trợ giúp xin vui lòng liên hệ: 1900 63 67 69</string>
+
+    <string name="ekyc_front_card">Vui lòng chụp ảnh mặt trước CMND/CCCD</string>
+    <string name="ekyc_back_card">Vui lòng chụp ảnh mặt sau CMND/CCCD</string>
+    <string name="ocr_result_new">Kết quả xác thực</string>
+    <string name="title_ocr_fail">Không thể trích xuất thông tin</string>
+    <string name="des_ocr_fail">Hình ảnh giấy tờ chưa rõ nét. Hãy đảm bảo ảnh chụp của bạn không bị mờ, loá sáng hay mất góc và vui lòng thử lại. Trân trọng cảm ơn.</string>
+    <string name="title_ekyc_fail">Xác thực không thành công</string>
+    <string name="des_ekyc_fail">Thông tin xác minh không hợp lệ, vui lòng kiểm tra và thử lại. Trân trọng cảm ơn.</string>
+    <string name="des_facematching_fail">Có một vài nguyên nhân dẫn đến hình ảnh nhận diện không phải chứng từ hợp lệ. Vui lòng kiểm tra và thử lại.</string>
+    <string name="des_indentity_fail">Thông tin giấy tờ đã tồn tại trong hệ thống. Quý khách vui lòng kiểm tra lại hoặc liên hệ bộ phận CSKH để biết thêm chi tiết.</string>
+    <string name="ekyc_success_title">Xác thực tài khoản thành công</string>
+    <string name="ekyc_success_des">Tài khoản của quý khách đã được xác thực. Theo đó, thông tin cá nhân của bạn cũng sẽ được cập nhật trên hệ thống. Trân trọng cảm ơn.</string>
+    <string name="ekyc_again">Xác thực lại</string>
+    <string name="change_file">Thay đổi giấy tờ</string>
+    <string name="choose_dob">Chọn ngày sinh</string>
+    <string name="choose_issued_date">Ngày cấp</string>
+    <string name="choose_expiry_date">Chọn ngày hết hạn</string>
+    <string name="confirm_hdgd">Xác nhận đăng ký kiêm Hợp đồng giao dịch điện tử</string>
+    <string name="confirm_des"><![CDATA[Theo quy định của Mcredit, xin vui lòng xác nhận đăng ký kiêm hợp đồng giao dịch điện tử dưới đây để tiếp tục sử dụng.<br><br>Thông tin đăng ký bao gồm:</br></br>]]></string>
+    <string name="accept_hdgd">Tôi đã đọc và đồng ý với Đăng ký kiêm Hợp đồng giao dịch điện tử tại Mcredit</string>
+    <string name="date_confirm">Ngày xác nhận</string>
+    <string name="close_v2">Hủy</string>
+    <string name="add_email">Thêm email</string>
+    <string name="detail_register">Chi tiết đăng ký</string>
+    <string name="photo_card">Chụp ảnh giấy tờ</string>
+    <string name="not_verify_ekyc">Tài khoản chưa xác thực</string>
+    <string name="des_ekyc">Bổ sung CMND/CCCD và chân dung để hoàn tất định danh</string>
+    <string name="guide_title_cccd">Hướng dẫn chụp ảnh CMND/CCCD</string>
+    <string name="des_guide_cccd">Đảm bảo ảnh thu được rõ nét, không bị mờ, loá, mất góc cạnh</string>
+    <string name="choose_v2">Chọn một lựa chọn</string>
+    <string name="info_loan">Thông tin khoản vay</string>
+    <string name="please_info">Vui lòng cung cấp thông tin về khoản vay mong muốn của bạn</string>
+    <string name="loan_purpose">Mục đích vay</string>
+    <string name="save_exit">Lưu và thoát</string>
+    <string name="budget_v2">Hạn mức vay mong muốn</string>
+    <string name="period">Thời hạn vay</string>
+    <string name="disbursement_form">Hình thức giải ngân</string>
+    <string name="des_policy">Tôi đồng ý tham gia bảo hiểm khoản vay sau khi đã đọc và hiểu rõ sản phẩm bảo hiểm kèm theo Quyền lợi bảo hiểm khoản vay</string>
+    <string name="detail_loan_purpose">Chi tiết mục đích vay</string>
+    <string name="payment_agent">Đại lý chi hộ</string>
+    <string name="enter_number">Nhập số</string>
+    <string name="info_person_loan">Thông tin người vay vốn</string>
+    <string name="please_check_person">Vui lòng kiểm tra và cung cấp các thông tin cá nhân của bạn theo biểu mẫu dưới đây</string>
+    <string name="card_day_epx">Có giá trị đến</string>
+    <string name="add_phone">+ Thêm số điện thoại</string>
+    <string name="address_email">Địa chỉ email</string>
+    <string name="hint_address_email">VD: abc@gmail.com (không bắt buộc)</string>
+    <string name="hint_address_email_requr">VD: abc@gmail.com</string>
+    <string name="marital_status">Tình trạng hôn nhân</string>
+    <string name="academic_level">Trình độ học vấn</string>
+    <string name="add_number_phone">Số điện thoại %d</string>
+    <string name="info_residence">Thông tin cư trú</string>
+    <string name="please_info_residence">Vui lòng cung cấp thông tin cư trú của bạn theo biểu mẫu dưới đây</string>
+    <string name="address_residence">Địa chỉ thường trú</string>
+    <string name="alike_add_residence">Giống với địa chỉ thường trú</string>
+    <string name="orther">Khác</string>
+    <string name="status_accomodation">Tình trạng chỗ ở</string>
+    <string name="time_status_accomodation">Thời gian sinh sống tại địa chỉ hiện tại</string>
+    <string name="month_v2">Tháng</string>
+    <string name="enter_full_address">Nhập đầy đủ số nhà, đường, số phòng chu…</string>
+    <string name="address_limited">Địa chỉ chính xác</string>
+    <string name="enter_careen_info">Thông tin nghề nghiệp và thu nhập</string>
+    <string name="please_careen">Vui lòng kiểm tra và cung cấp các thông tin của bạn theo biểu mẫu dưới đây</string>
+    <string name="inf_work">thông tin nghề nghiệp</string>
+    <string name="work">Nghề nghiệp</string>
+    <string name="name_compary">Tên đơn vị công tác/kinh doanh</string>
+    <string name="name_compary_hint">Nhập tên đơn vị công tác</string>
+    <string name="department">Phòng ban</string>
+    <string name="enter_department">Nhập tên phòng ban công tác</string>
+    <string name="position">Chức vụ</string>
+    <string name="time_work">Thời gian làm việc</string>
+    <string name="type_contract">Loại hợp đồng lao động</string>
+    <string name="work_unit">Địa chỉ công tác</string>
+    <string name="info_income">Thông tin thu nhập</string>
+    <string name="average_income">Thu nhập bình quân/tháng</string>
+    <string name="status_income">Hình thức nhận thu nhập</string>
+    <string name="type_document">loại giấy tờ có thể cung cấp</string>
+    <string name="choose_multy">Có thể chọn nhiều phương án</string>
+    <string name="cmnd_cccd">CMND/CCCD</string>
+    <string name="proof_of_residence">Giấy tờ chứng minh nơi ở</string>
+    <string name="documents_proving_financial">Giấy tờ chứng minh khả năng tài chính</string>
+    <string name="type_documents_proving_financial">Loại giấy tờ chứng minh khả năng tài chính</string>
+    <string name="type_documents_proving_financial_v2">Giá trị hóa đơn bình quân (3 tháng gần nhất)</string>
+    <string name="code_guest">Mã Khách hàng dịch vụ tiện ích</string>
+    <string name="single">Độc thân</string>
+    <string name="married">Đã kết hôn</string>
+    <string name="separated">Ly thân</string>
+    <string name="divorce">Ly hôn</string>
+    <string name="widow">Góa</string>
+    <string name="common">Phổ thông</string>
+    <string name="intermediate">Trung cấp</string>
+    <string name="college">Cao đẳng</string>
+    <string name="university">Đại học</string>
+    <string name="after_university">sau đại học</string>
+    <string name="reference">Thông tin tham chiếu</string>
+    <string name="info_reference">Vui lòng cung cấp thông tin của những người thân thiết có thể xác thực cho khoản vay của bạn</string>
+    <string name="information_about">Thông tin người thân</string>
+    <string name="enter_full_name">Nhập họ và tên đầy đủ</string>
+    <string name="relationship_customers">Mối quan hệ với khách hàng</string>
+    <string name="reference_information">Thông tin người tham chiếu %d</string>
+    <string name="add_reference">+ Thêm người tham chiếu</string>
+    <string name="choose_loan">Lựa chọn chương trình vay vốn</string>
+    <string name="des_choose_loan">Dưới đây là các chương trình vay vốn phù hợp nhất được đề xuất từ thông tin bạn cung cấp</string>
+    <string name="des_pre_offer">Lãi suất cho vay cụ thể sẽ phụ thuộc vào điểm xếp hạng tín nhiệm của Khách hàng theo đánh giá của Mcredit tại thời điểm phê duyệt hồ sơ đề nghị vay vốn.</string>
+    <string name="ct">Chương trình</string>
+    <string name="km_v2">Nên chọn</string>
+    <string name="ctud">Cho vay ưu đãi lãi suất</string>
+    <string name="des_v2">Là chương trình cho vay hạn mức với ưu đãi lãi suất hấp dẫn 0% trong 03 tháng đầu</string>
+    <string name="loan_money">Số tiền vay</string>
+    <string name="interest_rate">Lãi suất 0%</string>
+    <string name="period_v2">Kỳ ưu đãi</string>
+    <string name="annual_interest_rate">Lãi suất/tháng</string>
+    <string name="expected_monthly_payment">Số tiền dự kiến phải trả hàng tháng</string>
+    <string name="confirm_loan">Vui lòng kiểm tra và xác nhận lại thông tin trước khi hoàn tất gửi đăng ký</string>
+    <string name="nam_loan">Họ tên người vay vốn</string>
+    <string name="identity">Số giấy tờ tùy thân</string>
+    <string name="ct_loan">Chương trình vay</string>
+    <string name="success_digital_lending">Đăng ký vay thành công</string>
+    <string name="des_success">Hồ sơ vay vốn của Quý khách đã được tiếp nhận. Mcredit sẽ thông báo cho bạn khi quá trình thẩm định hoàn tất. Trân trọng cảm ơn.</string>
+    <string name="create_loan">Tạo hồ sơ vay vốn</string>
+    <string name="check_loan">Kiểm tra điều kiện vay vốn</string>
+    <string name="create_loan_v2">Tạo đề nghị vay vốn</string>
+    <string name="confirm_loan_v2">Xác nhận đề nghị vay vốn</string>
+    <string name="check_loan_des">Kiểm tra xem bạn có đạt đủ điều kiện vay vốn của Mcredit tại thời điểm hiện tại không</string>
+    <string name="check">Kiểm tra</string>
+    <string name="cmnd_old">Số CMND cũ</string>
+    <string name="hint_number">Nhập số (không bắt buộc)</string>
+    <string name="please_check_loan">Đang kiểm tra</string>
+    <string name="check_loan_success">Đạt đủ điều kiện vay vốn</string>
+    <string name="loan_create">Hồ sơ đang được khởi tạo</string>
+    <string name="deline">Từ chối</string>
+    <string name="verify_profile_loan">Hồ sơ vay của quý khách đã được phê duyệt</string>
+    <string name="loan_description">Vui lòng xác nhận đề nghị vay vốn chính thức trước khi tiến hành ký hợp đồng điện tử</string>
+    <string name="loan_approved">Khoản vay được duyệt</string>
+    <string name="time_maintain_budget">Hình thức vay</string>
+    <string name="confirm_time">Thời gian xác nhận còn</string>
+    <string name="cancle_loan">Hủy hồ sơ</string>
+    <string name="des_confirm_loan">Nếu hủy hồ sơ lúc này bạn sẽ bị giới hạn không thể vay vốn tại Mcredit trong 30 ngày tới. Bạn có chắc chắn muốn hủy?</string>
+    <string name="confirm_cancle_loan">Xác nhận hủy hồ sơ vay</string>
+    <string name="sure">Chắc chắn</string>
+    <string name="check_status_profile">Hồ sơ đang được xử lý</string>
+    <string name="cancel_loan">Mcredit rất tiếc vì trải nghiệm chưa tốt này</string>
+    <string name="cancle_des">Vui lòng dành 1 phút đóng góp ý kiến để giúp chúng tôi có thể cải thiện dịch vụ tốt hơn trong tương lai nhé</string>
+    <string name="contact_loan">Nếu có thắc mắc hoặc cần hỗ trợ, vui lòng liên hệ hotline 1900 63 67 69 để được giải đáp. Xin cảm ơn.</string>
+    <string name="date_register">Ngày đăng ký: %s</string>
+    <string name="code_profile">Mã hồ sơ: %s</string>
+    <string name="status_profile">Trạng thái hồ sơ</string>
+    <string name="view_result">Xem kết quả</string>
+    <string name="register_loan_success">Đăng ký vay thành công</string>
+    <string name="mcredit_profile">Mcredit đã tiếp nhận hồ sơ</string>
+    <string name="expertise">Thẩm định hồ sơ vay</string>
+    <string name="active_loan">Hoàn thành thẩm định</string>
+    <string name="loans"><![CDATA[Bạn có <b>1 hồ sơ vay vốn</b> đang xử lý]]></string>
+    <string name="register_budget">Vay tiền mặt</string>
+    <string name="appraisal_in_progress">Đang thẩm định</string>
+    <string name="complete_the_appraisal">Hoàn thành thẩm định</string>
+    <string name="result_des_tooltip">Khoản vay được duyệt sau thẩm định có thể khác với thông tin đã đăng ký trước đó</string>
+    <string name="help_stk">"Số tài khoản để giải ngân cần có tên và số giấy tờ trùng khớp với người đăng ký vay vốn"</string>
+    <string name="career">Ngành nghề</string>
+    <string name="cccd_old">Giấy tờ xác nhận CMND cũ</string>
+    <string name="career_0">Loại giấy tờ chứng minh khả năng tài chính</string>
+    <string name="check_loan_fail">Chưa đủ điều kiện vay vốn</string>
+    <string name="des_check_loan_fail"><![CDATA[Vì một vài lý do Mcredit hiện không thể liên hệ được với Quý khách để hoàn thiện thủ tục thẩm định hồ sơ vay vốn.<br><br>Chúng tôi thắc mắc rằng liệu bạn có muốn tiếp tục quá trình thẩm định? Nếu có, xin vui lòng xác nhận thời gian để nhân viên của Mcredit có thể liên hệ lại với bạn.</br></br>]]></string>
+    <string name="bhxh_bhyt">Số Sổ BHXH/Thẻ BHYT</string>
+    <string name="compelete_loan">Hoàn thiện các bước sau để tạo hồ sơ vay</string>
+    <string name="discount_v2">Mã ưu đãi</string>
+    <string name="discount_enter">Nhập mã ưu đãi (nếu có)</string>
+    <string name="delete_v2">Xóa</string>
+    <string name="draf" tools:ignore="TypographyEllipsis">Bạn có 1 hồ sơ vay vốn chưa hoàn tất...</string>
+    <string name="interest_loan">Lãi suất tháng</string>
+    <string name="period_loan">Tỷ lệ ưu đãi gốc</string>
+    <string name="time_interest_rate">Thời gian ưu đãi</string>
+    <string name="loan_money_v2">Số tiền hoàn hàng kỳ</string>
+    <string name="help_draf">Lãi suất cho vay cụ thể sẽ phụ thuộc vào điểm xếp hạng tín nhiệm của Khách hàng theo đánh giá của Mcredit tại thời điểm phê duyệt hồ sơ đề nghị vay vốn.</string>
+    <string name="type_of_offer">Loại hình ưu đãi</string>
+    <string name="time_loan">Thời gian hợp đồng vay vốn</string>
+    <string name="limit_maintenance_time">Thời gian duy trì hạn mức</string>
+    <string name="recurring_payment_rate">Tỷ lệ thanh toán định kỳ</string>
+    <string name="customer">Khách hàng</string>
+    <string name="family">Vợ/Chồng</string>
+    <string name="person_save">Người đứng tên trên hợp đồng BHNT</string>
+    <string name="input_province">Nhập tên Tỉnh/Thành phố</string>
+    <string name="input_district">Nhập tên Quận/Huyện</string>
+    <string name="input_ward">Nhập tên Phường/Xã</string>
+    <string name="budget_v3">Hạn mức vay</string>
+    <string name="budget_v4">*Hạn mức vay tối thiểu là %s và tối đa không vượt quá %s</string>
+    <string name="vnd_v2">%s VND</string>
+    <string name="refuse">Từ chối đề nghị vay vốn</string>
+    <string name="confirm_refuse">Bạn có chắc chắn muốn từ chối đề nghị vay vốn này?</string>
+
+
+    <string name="total_outstanding_balance_period">Tổng dư nợ phải trả trong kỳ</string>
+    <string name="payment_options">Lựa chọn thanh toán</string>
+    <string name="option_amount">Số tiền tùy chọn</string>
+    <string name="all_debt">Thanh toán toàn bộ</string>
+    <string name="payment_amount">Số tiền thanh toán</string>
+    <string name="debt_information">Thông tin thanh toán trong kỳ</string>
+    <string name="detail_debt_information">Chi tiết thanh toán trong kỳ</string>
+    <string name="provisional">Tạm tính</string>
+    <string name="provisional_flexible">Tạm tính (%d hợp đồng)</string>
+    <string name="paid_period">Đã thanh toán kỳ này</string>
+    <string name="period_description">Bao gồm số tiền còn dư từ những kỳ thanh toán trước đây</string>
+    <string name="debit_pay">Số tiền còn phải thanh toán</string>
+    <string name="import_money">Nhập số tiền</string>
+    <string name="payment_minimum_payment_amount">*Số tiền thanh toán tối thiểu là 12.000 VND</string>
+    <string name="payment_minimum_payment_amount_megapay">*Số tiền thanh toán tối thiểu là 12.000 VND và tối đa không quá 10.000.000 VND</string>
+    <string name="priority_payment">Đề xuất thanh toán</string>
+    <string name="priority_contract">Đề xuất thanh toán</string>
+    <string name="priority_description"><![CDATA[Trong trường hợp không thể thanh toán toàn bộ dư nợ trong kỳ, dựa vào lựa chọn của quý khách, chúng tôi sẽ ghi nhận hợp đồng Khách hàng đề xuất thanh toán. <br> <br>
+    Việc thanh toán và thu nợ thực tế sẽ tuân thủ theo hợp đồng cho vay ký kết giữa Mcredit và khách hàng. <br> <br>
+    👉 Để biết thêm chi tiết xin vui lòng liên hệ tổng đài <font color=\'#0A73F0\'>1900 63 67 69</font> ]]></string>
+
+    <string name="proposal_description"><![CDATA[Số tiền đã thanh toán được hiểu bao gồm số tiền khách hàng đã thanh toán trong kỳ và số tiền thanh toán còn dư từ các kỳ trước đó. <br> <br>
+    Thông tin này sẽ được cập nhật chậm nhất trong vòng 24h kể từ khi giao dịch thanh toán được ghi nhận. <br> <br>
+    👉 Trong trường hợp cần biết thêm chi tiết, vui lòng liên hệ tổng đài <font color=\'#0A73F0\'>1900 63 67 69</font> ]]></string>
+
+    <string name="choose_payment_preference">Chọn HĐ đề xuất thanh toán</string>
+    <string name="payment_term">Hạn thanh toán</string>
+    <string name="total_common">Tổng</string>
+    <string name="debit_balance_pay">Tổng dư nợ còn phải nộp</string>
+    <string name="payment_atm">Thanh toán qua thẻ ATM</string>
+    <string name="add_new_card">Thêm thẻ mới</string>
+    <string name="save_payment_information">Lưu thông tin thanh toán</string>
+    <string name="save_information">Lưu thông tin</string>
+    <string name="not_save_information">Không lưu</string>
+    <string name="save_payment_information_description">Bạn có muốn lưu lại thông tin thẻ cho lần thanh toán tiếp theo sau khi đã kết thúc thanh toán?</string>
+    <string name="payment_success">Giao dịch thanh toán \n thành công</string>
+    <string name="payment_success_description">Giao dịch thanh toán đã được ghi nhận và sẽ cập nhật trên hệ thống muộn nhất trong vòng 24h tới. Mọi thắc mắc xin vui lòng liên hệ hỗ trợ &lt;font color="#0A73F0">1900 63 67 69. &lt;/font> </string>
+    <string name="payment_fail">Giao dịch thanh toán không \nthành công!</string>
+    <string name="payment_fail_description">Quý khách vui lòng thử lại hoặc liên hệ hotline &lt;font color="#0A73F0">1900 63 67 69 &lt;/font> để được hỗ trợ</string>
+    <string name="paying_again">Thử thanh toán lại</string>
+    <string name="loan_needs_paid_off"><![CDATA[Bạn đang có <font color=\'#0A73F0\'> %d khoản vay </font> cần thanh toán]]></string>
+    <string name="total_outstanding_balance_payable">Số tiền còn phải thanh toán trong kỳ</string>
+    <string name="total_payment_amount">Tổng số tiền thanh toán</string>
+    <string name="payment_method">Phương thức thanh toán</string>
+    <string name="choose_method">Chọn phương thức</string>
+    <string name="payment_method_saved">Phương thức thanh toán đã lưu</string>
+    <string name="select_payment_method">Chọn phương thức thanh toán</string>
+    <string name="select">Chọn</string>
+    <string name="payment_card_description">Phụ thuộc vào quy định của từng  đơn vị thu hộ</string>
+    <string name="household_collection_fee">Phí thu hộ</string>
+    <string name="disable_vnd">-- VND</string>
+    <string name="phone_number_support">1900636769</string>
+    <string name="save_payment_card_information">Lưu thông tin thẻ thanh toán</string>
+    <string name="payment_method_message">Vui lòng xác định số tiền thanh toán trước khi lựa chọn phương thức</string>
+    <string name="remove_cross_boiled"><![CDATA["\"]]></string>
+    <string name="payment_momo_description">Giới hạn thanh toán qua ví Momo là 20 triệu/lần giao dịch và không vượt quá 30 triệu/ngày.</string>
+    <string name="payment_card_warning">Giới hạn thanh toán tối đa qua thẻ ATM là 10.000.000 VND/lần giao dịch</string>
+    <string name="payment_megapay_description">Lưu ý: Đối với yêu cầu hủy giao dịch/hoàn lại tiền, quý khách đồng ý chi trả phí xử lý giao dịch 1.100 VND</string>
+    <string name="payment_momo_path_deeplink">/momo</string>
+    <string name="payment_megapay_path_deeplink">/megapay</string>
+    <string name="my_loan">Khoản vay của tôi</string>
+    <string name="dashboard_payment_description">Bạn có khoản vay cần thanh toán...</string>
+    <string name="payment_list_label">Chọn hợp đồng cần thanh toán</string>
+    <string name="installment_loans">Vay trả góp</string>
+    <string name="period_loan_description">Đã bao gồm số tiền còn dư từ những kỳ thanh toán trước đây: %s VND</string>
+    <string name="loan_register">Đăng ký vay</string>
+    <string name="loan_register2">Đăng ký\nvay</string>
+    <string name="sign_contract">Ký hợp đồng</string>
+    <string name="loan_amount">Khoản vay</string>
+    <string name="transaction_point">Điểm G.Dịch</string>
+    <string name="view_now">Xem ngay</string>
+    <string name="call_now">Gọi ngay</string>
+    <string name="hotline_label">Hotline:</string>
+    <string name="phone_number_hotline">1900 63 67 69</string>
+    <string name="hotline_description">Có nhu cầu vay vốn, có thắc mắc cần giải đáp? Mcredit luôn sẵn sàng</string>
+    <string name="clear">Xóa</string>
+    <string name="clear_card_token">Xóa thông tin thẻ</string>
+    <string name="clear_card_token_description">Bạn có chắc chắn muốn xóa thông tin thanh toán thẻ?</string>
+    <string name="removed_card_info">Đã xóa thông tin thẻ</string>
+    <string name="undo">Hoàn tác</string>
+    <string name="card_information_restored">Thông tin thẻ đã được khôi phục</string>
+    <string name="no_loan_to_pay">Chưa có khoản vay cần thanh toán</string>
+    <string name="amount_expected_period">Dự kiến thanh toán trong kỳ</string>
+    <string name="amount_expected">Số tiền dự kiến thanh toán</string>
+    <string name="contract_number_value">Số hợp đồng: %s</string>
+    <string name="atm_short_name">Thẻ ATM - %s</string>
+    <string name="number_show">1900 63 67 69</string>
+    <string name="number_call">1900636769</string>
+    <string name="penalty_overdue_payment_message">Số tiền kỳ này (bao gồm gốc và lãi) chỉ được cập nhật trong vòng 03 ngày làm việc trước hạn thanh toán. Quý khách lưu ý hoàn tất thanh toán trong thời gian trên.</string>
+    <string name="penalty_overdue_payment_limit_loan_message">Số tiền cần thanh toán kỳ này chỉ được cập nhật chính xác trong vòng 03 ngày làm việc trước hạn thanh toán. Quý khách lưu ý hoàn tất thanh toán trong thời gian trên.</string>
+    <string name="search_feature">Tìm kiếm tính năng</string>
+    <string name="transaction_point_full">Điểm giao dịch</string>
+    <string name="support_label">Hỗ trợ</string>
+    <string name="location_nearly">Điểm giao dịch gần nhất</string>
+    <string name="rate_and_feedback">Đánh giá và góp ý</string>
+    <string name="contract_template">Hợp đồng cho vay mẫu</string>
+    <string name="login_biometric">Đăng nhập bằng bảo mật của\nthiết bị</string>
+    <string name="login_biometric_des">Sử dụng Khuôn mặt / Vân tay để mở khoá ứng dụng dễ dàng hơn</string>
+    <string name="change_password2">Thay đổi mật khẩu</string>
+    <string name="permanent_address">Địa chỉ thường trú</string>
+    <string name="contact_info">Thông tin liên hệ</string>
+    <string name="document_info">Thông tin giấy tờ tùy thân</string>
+    <string name="introduce">Giới thiệu</string>
+    <string name="hint_input_province">Nhập tên Tỉnh/Thành phố</string>
+    <string name="setting">Cài đặt</string>
+    <string name="product_cash_des">Tiền mặt liền tay, thỏa ngay mong đợi</string>
+    <string name="product_il_des">Trả góp thả ga, nhẩn nha tận hưởng</string>
+    <string name="product_card_des">Xài thẻ ngay, tiêu\nmê say</string>
+    <string name="il_des">Đáp ứng nhu cầu tiêu dùng phục vụ đời sống của khách hàng</string>
+    <string name="update_info_personal">Cập nhật thông tin cá nhân</string>
+    <string name="hint_input_district">Nhập tên Quận/Huyện</string>
+    <string name="hint_input_ward">Nhập tên Phường/Xã</string>
+    <string name="doucment_simple">Hồ sơ ĐƠN GIẢN</string>
+    <string name="product_advances_il">Ưu điểm của vay tiền mặt</string>
+    <string name="product_il_title">Tiền mặt liền tay,\nthỏa ngay mong đợi</string>
+    <string name="product_rl_title">Trả góp thả ga,\nnhẩn nha tận hưởng</string>
+    <string name="product_card_title">Xài thẻ ngay,\ntiêu  mê say</string>
+    <string name="headquarters">Trụ sở chính</string>
+    <string name="company_name">Công ty TNHH Tài chính MB Shinsei (Mcredit)</string>
+    <string name="company_address">Tầng 9-12 Tòa nhà MB Bank, số 21 Cát Linh, phường Cát Linh, quận Đống Đa, Hà Nội</string>
+    <string name="do_you_need_support">Bạn cần hỗ trợ?</string>
+    <string name="telesale">Tổng đài CSKH</string>
+    <string name="tool_calculator_loan_regis">Công cụ tính</string>
+    <string name="confirm_registration">Xác nhận đăng ký tư vấn vay</string>
+    <string name="loan_registration_note">Vui lòng kiểm tra và xác nhận lại thông tin trước khi hoàn tất gửi đăng ký</string>
+    <string name="need_support_contact_there">👉 Cần hỗ trợ vui lòng liên hệ: 1900 63 67 69</string>
+    <string name="need_support_contact_there_v1"><![CDATA[%s]]></string>
+    <string name="need_support_contact_there_v2">👉 Chi tiết liên hệ hotline 1900 63 67 69</string>
+    <string name="need_support_contact_there_v3">Chi tiết liên hệ hotline 1900 63 67 69</string>
+    <string name="color_primary">#0A73F0</string>
+    <string name="support_detail_hotline">Thông tin chi tiết xin liên hệ: 1900 63 67 69</string>
+    <string name="text_color_primary">#0A2851</string>
+    <string name="back">Quay lại</string>
+    <string name="share_qr_des">Giúp bạn bè tải nhanh ứng dụng Mcredit\nbằng cách quét mã QR dưới đây</string>
+    <string name="please_comment">Vui lòng chia sẻ ý kiến của bạn</string>
+
+    <string name="validate_email">Email không đúng định dạng</string>
+    <string name="choose_provide">Vui lòng chọn Tỉnh/Thành phố trước khi chọn các thông tin khác</string>
+    <string name="invali_citizen">Số CMND không hợp lệ</string>
+    <string name="invali_citizen_cccd">Số CMND/CCCD không hợp lệ</string>
+    <string name="choose_district">Vui lòng chọn Quận/Huyện trước khi chọn các thông tin khác</string>
+    <string name="nam">Nam</string>
+    <string name="nu">Nữ</string>
+    <string name="policy_loan">Quyền lợi bảo hiểm khoản vay</string>
+    <string name="des_1">Tham gia gói bảo hiểm khoản vay của Mcredit và bạn sẽ nhận được những quyền lợi sau:</string>
+    <string name="des_2">Bảo vệ cho bạn và người thân</string>
+    <string name="des_3">Hỗ trợ chi trả các khoản vay khi xảy ra các rủi ro không mong muốn do tai nạn như thương tật toàn bộ vĩnh viễn, tử vong.</string>
+    <string name="des_4">Khoản bồi thường lên đến 150% giá trị khoản vay, đảm bảo khả năng hoàn trả khoản vay, phần còn lại sẽ được trao lại cho bạn hoặc người thụ hưởng được ủy quyền theo quy định</string>
+    <string name="des_5">(*) Chi tiết quyền lợi được áp dụng theo Điều kiện và điều khoản trong quy tắc bảo hiểm của đơn vị cung cấp bảo hiểm.</string>
+    <string name="des_6">👉 Cần hỗ trợ xin vui lòng liên hệ: 1900 63 67 69</string>
+    <string name="additional_relevant_documents">Bổ sung tài liệu liên quan</string>
+    <string name="additional_relevant_documents_label">Để hoàn tất hồ sơ vay vốn, quý khách vui lòng cung cấp hình ảnh hoặc tài liệu của các loại giấy tờ sau:</string>
+    <string name="item_additional_document_description">Đính kèm tối đa: %d tập tin</string>
+    <string name="select_existing_file">Chọn tập tin sẵn có</string>
+    <string name="new_photo_shoot">Chụp ảnh mới</string>
+    <string name="select_photo">Chọn ảnh</string>
+    <string name="financial_documents">Giấy tờ chứng minh tài chính</string>
+    <string name="show_has_file">Hiện có: %d tập tin</string>
+    <string name="selected">Đã chọn: %d</string>
+    <string name="remove_selected_file">Gỡ tập tin đã chọn</string>
+    <string name="remove_file">Gỡ tập tin</string>
+    <string name="remove_file_message">Bạn có chắc chắn muốn bỏ đính kèm những hình ảnh/tập tin đã chọn?</string>
+    <string name="remove_image_message">Bạn có chắc chắn muốn bỏ đính kèm những hình ảnh/tập tin này?</string>
+    <string name="confirm_upload_file">Hệ thống phát hiện có một số tập tin của bạn gặp lỗi trong khi tải lên. Bạn chắc chắn muốn tiếp tục mà không cần tải lại hoặc thay thế những tập tin đó?</string>
+    <string name="proof_of_residence_description"><![CDATA[ Bao gồm ảnh chụp màu/file scan màu bản công chứng có xác nhận của cơ quan/tổ chức có thẩm quyền còn hiệu lực (áp dụng với Sổ đỏ/Sổ hồng/Sổ hộ khẩu/Sổ tạm trú/Sổ khai báo tạm trú/Thẻ tạm trú/ Giấy xác nhận tạm trú/ Giấy khai báo tạm trú…): <br> <br>
+     \u2022 Thông tin trên tài liệu cần thể hiện rõ ràng, đầy đủ và đảm bảo trùng khớp với thông tin đã kê khai tương ứng với loại giấy tờ chứng minh bạn lựa chọn cung cấp. <br> <br>
+     \u2022 Mỗi loại giấy tờ cung cấp phải bao gồm đầy đủ tất cả các trang, được sắp xếp cùng chiều và theo thứ tự. Nếu bạn lựa chọn cung cấp nhiều hơn một loại giấy tờ chứng minh, hãy đính kèm lần lượt từng loại giấy tờ vào đúng vị trí tương ứng.<br> <br>
+     \u2022 Hình ảnh tài liệu rõ nét, ngay ngắn, nguyên vẹn, không có dấu hiệu sửa đổi/cắt ghép thông tin. <br> <br>
+     👉 Cần hỗ trợ xin vui lòng liên hệ: <font color=\'#0A73F0\'>1900 63 67 69</font> ]]></string>
+
+    <string name="documents_proving_financial_description"><![CDATA[ Bao gồm ảnh chụp màu/file scan màu bản công chứng có xác nhận của cơ quan/tổ chức có thẩm quyền còn hiệu lực (áp dụng với Giấy chứng nhận đăng ký kinh doanh/Giấy chứng nhận đăng ký doanh nghiệp) hoặc ảnh chụp màu màn hình máy tính (áp dụng với hoá đơn tiện ích, sao kê ngân hàng ngoại trừ sao kê lương): <br> <br>
+     \u2022 Thông tin trên tài liệu cần thể hiện rõ ràng, đầy đủ và đảm bảo trùng khớp với thông tin đã kê khai tương ứng với loại giấy tờ chứng minh bạn lựa chọn cung cấp. <br> <br>
+     \u2022 Mỗi loại giấy tờ cung cấp phải bao gồm đầy đủ tất cả các trang, được sắp xếp cùng chiều và theo thứ tự. Nếu bạn lựa chọn cung cấp nhiều hơn một loại giấy tờ chứng minh, hãy đính kèm lần lượt từng loại giấy tờ vào đúng vị trí tương ứng.<br> <br>
+     \u2022 Hình ảnh tài liệu rõ nét, ngay ngắn, nguyên vẹn, không có dấu hiệu sửa đổi/cắt ghép thông tin. <br> <br>
+     👉 Cần hỗ trợ xin vui lòng liên hệ: <font color=\'#0A73F0\'>1900 63 67 69</font> ]]></string>
+
+    <string name="cccd_old_description"><![CDATA[ Ảnh chụp màu giấy tờ gốc hoặc file scan màu giấy tờ gốc có xác nhận của cơ quan/tổ chức có thẩm quyền còn hiệu lực: <br> <br>
+     \u2022 Thông tin trên tài liệu cần thể hiện rõ ràng, đầy đủ và đảm bảo trùng khớp với thông tin đã kê khai tương ứng với loại giấy tờ chứng minh bạn lựa chọn cung cấp. <br> <br>
+     \u2022 Mỗi loại giấy tờ cung cấp phải bao gồm đầy đủ tất cả các trang, được sắp xếp cùng chiều và theo thứ tự. Nếu bạn lựa chọn cung cấp nhiều hơn một loại giấy tờ chứng minh, hãy đính kèm lần lượt từng loại giấy tờ vào đúng vị trí tương ứng.<br> <br>
+     \u2022 Hình ảnh tài liệu rõ nét, ngay ngắn, nguyên vẹn, không có dấu hiệu sửa đổi/cắt ghép thông tin. <br> <br>
+     👉 Cần hỗ trợ xin vui lòng liên hệ: <font color=\'#0A73F0\'>1900 63 67 69</font> ]]></string>
+
+    <string name="select_item">Chọn mục</string>
+    <string name="error_uploading">Có lỗi khi tải lên</string>
+    <string name="error_uploading_description">Một hoặc một vài tập tin không thể tải lên. Vui lòng kiểm tra, thử tải lại hoặc thay thế bằng tập tin mới.</string>
+    <string name="error_file_list">Danh sách tập tin lỗi</string>
+    <string name="awaiting_download">Đang chờ tải...</string>
+    <string name="money_bhxh">Số tiền đóng phí bảo hiểm/năm</string>
+    <string name="code_cus">Mã Khách hàng dịch vụ tiện ích</string>
+    <string name="number_bhxh">Số hợp đồng BHNT</string>
+    <string name="hd_loan">Số HĐ vay vốn tại TCTD khác</string>
+    <string name="money_month">Số tiền phải trả hàng tháng</string>
+    <string name="regis_moto">Số giấy chứng nhận đăng ký xe máy</string>
+    <string name="price_moto">Giá mua xe</string>
+    <string name="money_per_month">Thu nhập tháng %s</string>
+    <string name="money_month_min">Giá trị giao dịch nhỏ nhất của tháng %s</string>
+    <string name="money_month_max">Giá trị giao dịch lớn nhất của tháng %s</string>
+
+    <string name="validate_cmnd_old">Số CMND cũ không được để trống</string>
+    <string name="percent">%s % - %s %</string>
+
+    <string name="maximum_limit_document_digital">Giới hạn tối đa là %d tập tin</string>
+    <string name="maximum_limit_photo_digital">Giới hạn tối đa là %d ảnh</string>
+    <string name="pre_check_fail_hotline">Mọi thắc mắc xin vui lòng liên hệ 1900 63 67 69</string>
+    <string name="create_new_loan">Tạo hồ sơ mới</string>
+    <string name="title_create_new_loan">Hồ sơ đã gần hoàn thiện rồi</string>
+    <string name="des_create_new_loan">Tạo hồ sơ mới đồng nghĩa bạn sẽ cần bắt đầu nhập liệu lại mọi thứ từ đầu. Bạn chắc chắn muốn tạo hồ sơ mới?</string>
+    <string name="apply_loan">Đăng ký vay thành công</string>
+    <string name="received_loan">Mcredit đã tiếp nhận hồ sơ</string>
+    <string name="received_loan_v2">Đã tiếp nhận hồ sơ</string>
+    <string name="complete_loan">Hoàn thành thẩm định</string>
+    <string name="confirm_contiune">Xác nhận tiếp tục</string>
+    <string name="contiune_v2">Đang tiến hành…</string>
+    <string name="duplicate_phone">Số điện thoại đã được sử dụng.</string>
+    <string name="not_money">Điều kiện thu nhập tối thiểu là 3.000.000 VND</string>
+    <string name="email_validate">Email không được để trống</string>
+    <string name="file_upload_message">Đang tải dữ liệu, vui lòng đợi trong giây lát</string>
+    <string name="file_upload_description">Tài liệu không hỗ trợ xem chi tiết</string>
+    <string name="file_null">Chưa có hình ảnh/tập tin đính kèm</string>
+    <string name="max_file_message">Một vài tập tin không được đính kèm do vượt quá giới hạn tối đa %d tập tin</string>
+    <string name="file_size_message">Một vài tập tin không được đính kèm do vượt quá giới hạn dung lượng 10 MB</string>
+    <string name="max_file_description">Số lượng tài liệu đã đạt giới hạn</string>
+    <string name="pre_offer_fail">Chưa có khoản vay phù hợp</string>
+    <string name="choose_date">Chọn ngày</string>
+    <string name="note_loan">(*) Khoản vay được duyệt sau thẩm định có thể khác với thông tin đã đăng ký trước đó.</string>
+    <string name="loan_method">Phương thức vay vốn</string>
+    <string name="original_payment_frequency">Tần suất thanh toán gốc</string>
+    <string name="interest_payment_frequency">Tần suất thanh toán lãi</string>
+    <string name="fee_for_early_settlement">Phí tất toán trước hạn</string>
+    <string name="cancle_loan_v2">Lý do bạn muốn huỷ hồ sơ là gì?</string>
+    <string name="money_per_month_six">Giá trị hóa đơn tháng %s</string>
+    <string name="person_bill">Người đứng tên trên hóa đơn</string>
+    <string name="please_cancel">Vui lòng chọn lý do huỷ hồ sơ</string>
+    <string name="enter_infor">Nhập thông tin</string>
+    <string name="sign_loan">Chờ ký hợp đồng điện tử</string>
+    <string name="sign_loan_v3">Ký hợp đồng vay vốn</string>
+    <string name="title_loan">Bạn chưa xác nhận thông tin khoản vay</string>
+    <string name="confirm_loan_v3">Xác nhận ngay</string>
+    <string name="file_error_message">Một hoặc một vài tập tin không thể tải lên</string>
+    <string name="sign_loan_v2">Hợp đồng đã được tạo</string>
+    <string name="create_sign_loan">Đang tạo hợp đồng…</string>
+    <string name="replace_file">Thay thế tập tin</string>
+    <string name="confirm_loan_v4">Khoản vay được duyệt sẽ hết hiệu lực trong 48 giờ kể từ khi có kết quả thẩm định. Sau thời gian trên, hồ sơ sẽ tự động bị hủy và bạn không thể đăng vay lại trong vòng 30 ngày</string>
+    <string name="loan_accessment">Xin chào, bạn vẫn khỏe chứ?</string>
+    <string name="des_cancel_loan">Bạn có chắc chắn muốn hủy hồ sơ vay vốn?</string>
+    <string name="cofirm_loan">Xác nhận đề nghị vay</string>
+    <string name="code_profile_update">Mã hồ sơ: Đang cập nhật</string>
+    <string name="confirm_success">Xác nhận thông tin khoản vay thành công</string>
+    <string name="payment_atm_title">Thanh toán qua thẻ ATM</string>
+    <string name="payment_momo_title">Ví momo</string>
+    <string name="otp_sended">Mã xác thực đã được gửi lại</string>
+    <string name="otp_sended_des">Mã xác thực đã được gửi lại đến số điện thoại của bạn. Hãy kiểm tra.</string>
+    <string name="message_file_error">Tài liệu có lỗi xảy ra trong việc tải lên, vui lòng chọn lại</string>
+    <string name="amount">Số tiền vay (Đã bao gồm phí bảo hiểm)</string>
+    <string name="take_call">Ví dụ: Trong giờ hành chính từ thứ 2 đến thứ 6</string>
+    <string name="invite_loan">NGƯỜI GIỚI THIỆU (NẾU CÓ)</string>
+    <string name="enter_code_invite_v2">Nhập mã NVBH hoặc SĐT người giới thiệu</string>
+    <string name="code_invite">Mã giới thiệu</string>
+    <string name="error_code_invite">Mã NVBH hoặc SĐT không hợp lệ</string>
+
+
+    <string name="register_rl">Đăng ký vay hạn mức</string>
+    <string name="register_rl_des">Tự tạo hồ sơ vay online</string>
+    <string name="choose_action">Chọn hành động</string>
+    <string name="register_credit_card">Đăng ký mở thẻ tín dụng</string>
+    <string name="register_cc_des">Nhận tư vấn mở thẻ qua tổng đài</string>
+    <string name="loan_registration_title">Đăng ký tư vấn vay</string>
+    <string name="loan_registration_des">Nhận tư vấn vay vốn qua tổng đài</string>
+    <string name="cc_registration_welcome">Rất vui vì bạn đã lựa chọn đăng ký mở thẻ tín dụng tại Mcredit</string>
+    <string name="cc_registration_input_cccd">Để bắt đầu, vui lòng nhập vào số CMND hoặc CCCD của bạn</string>
+    <string name="edt_hint_input_cc">Nhập số CMND/CCCD của bạn</string>
+    <string name="cance">Hủy</string>
+    <string name="litmit_amount_request_title">Bạn mong muốn hạn mức thẻ là bao nhiêu?</string>
+    <string name="litmit_amount_request">Hạn mức thẻ mong muốn</string>
+    <string name="input_email_des">Nhập vào địa chỉ thư điện tử của bạn để nhận được những thông tin ưu đãi nhanh nhất và mới nhất. Bạn có thể bỏ qua thông tin này.</string>
+    <string name="edt_hint_email">Ví dụ: abc@gmail.com</string>
+    <string name="what_is_ur_address">Địa chỉ hiện tại của bạn ở đâu?</string>
+    <string name="finalcial_method">Hình thức\nchứng minh tài chính</string>
+    <string name="choose_finalcial_method">Chọn 1 trong các phương án dưới đây</string>
+    <string name="confirm_info_regis_cc">Xác nhận thông tin đăng ký mở thẻ</string>
+    <string name="regis_cc_sub">Vui lòng kiểm tra và xác nhận lại thông tin trước khi hoàn tất và gửi đăng ký</string>
+    <string name="register_cc_info">Thông tin đăng ký mở thẻ</string>
+    <string name="method_finalci">Hình thức chứng minh tài chính</string>
+    <string name="regis_cc_success">Gửi đăng ký thành công</string>
+    <string name="regis_cc_success_des">Hồ sơ đăng ký mở thẻ tín dụng của Quý khách đã được tiếp nhận. Mcredit sẽ liên hệ để tư vấn trong thời gian sớm nhất. Trân trọng cảm ơn.</string>
+    <string name="limit_amount_cc">Vượt quá hạn mức cho phép</string>
+    <string name="email_invalid">Email không đúng định dạng</string>
+    <string name="insurrane">Bảo hiểm nhân thọ</string>
+    <string name="electric_bill">Hóa đơn điện</string>
+    <string name="welcome_there">Chào %s,</string>
+    <string name="invalid_cccd">Số CMND/CCCD không đúng định dạng</string>
+    <string name="input_email">Nhập Email</string>
+    <string name="province_title">Tỉnh / Thành phố</string>
+    <string name="hint_input_address">Nhập tên Tỉnh/Thành phố</string>
+    <string name="full_address">%s, %s, %s, %s</string>
+    <string name="canbo">Cán bộ công chức nhà nước</string>
+    <string name="regis_bhnt">Theo hợp đồng bảo hiểm nhân thọ</string>
+    <string name="regis_salary">Chứng minh thu nhập từ lương</string>
+    <string name="regis_bill">Hóa đơn tiện ích (nước, truyền hình cáp, internet)</string>
+    <string name="regis_finalci_phone">Sử dụng thuê bao di động Vinaphone, Mobiphone, Vietel</string>
+    <string name="finalci_bank_number">Mở theo số dư tài khoản ngân hàng</string>
+    <string name="register_il">Đăng ký vay tiền mặt</string>
+    <string name="avatar_update">Cập nhật hình đại diện</string>
+    <string name="choose_from_library">Chọn từ thư viện</string>
+    <string name="update_good_code">Cập nhật số khung, số máy</string>
+    <string name="good_code_des">Vui lòng cập nhật số khung, số máy đã được ghi trên hóa đơn của sản phẩm để tiếp tục ký</string>
+    <string name="update_serial">Cập nhật số serial</string>
+    <string name="update_serial_des">Vui lòng cập nhật số khung, số máy đã được ghi trên hóa đơn của sản phẩm để tiếp tục ký</string>
+    <string name="enter_serial">Nhập số serial</string>
+    <string name="goods_info">Thông tin hàng hóa</string>
+    <string name="tw_frame_engine_id">Số khung | Số máy</string>
+    <string name="tw_name_label">Hàng hóa 1 (Loại hàng hóa | Nhãn hiệu | GTHH)</string>
+    <string name="serial_number">Số serial</string>
+
+    <string name="search_contract_v2">Tìm tên, số điện thoại…</string>
+    <string name="search_fail">Không tìm thấy kết quả phù hợp</string>
+    <string name="contracts">Danh bạ</string>
+    <string name="update_profile">Bổ sung hồ sơ</string>
+    <string name="verify">Xác thực</string>
+    <string name="update_relevant_documents_label">Vui lòng cập nhật lại hình ảnh/tập tin cho các loại giấy tờ sau: </string>
+    <string name="update_document_sucess">Bổ sung hồ sơ thành công</string>
+    <string name="update_document_success_sub">Mcredit đã tiếp nhận hồ sơ bổ sung của bạn. Hệ thống sẽ kiểm tra và thông báo cho bạn ngay khi có kết quả thẩm định.</string>
+    <string name="update_document_fail">Bổ sung hồ sơ không thành công</string>
+    <string name="update_document_fail_sub">Bổ sung hồ sơ không thành công. Vui lòng thử lại sau ít phút.</string>
+    <string name="sub_des">Bạn có thể nhận cuộc gọi lúc nào?</string>
+    <string name="send_confirm">Gửi xác nhận</string>
+    <string name="want_continue">Tôi muốn tiếp tục vay</string>
+    <string name="confirm_fail">Xác nhận không thành công</string>
+    <string name="confirm_fail_des">Xác nhận tiếp tục thẩm định không thành công. Vui lòng thử lại sau ít phút.</string>
+    <string name="confirm_success_v2">Xác nhận thành công</string>
+    <string name="confirm_fail_v3">Xác nhận không thành công</string>
+    <string name="confirm_fail_v2">Xác nhận tiếp tục thẩm định không thành công. Vui lòng thử lại sau ít phút.</string>
+    <string name="your_review">Đánh giá của bạn</string>
+    <string name="rating_low_description">Cảm ơn đã đánh giá. Mọi phản hồi đều đáng trân trọng ❤️</string>
+    <string name="rating_low_question">Điều gì khiến bạn chưa hài lòng với Mcredit?️</string>
+    <string name="content_comments">Nội dung góp ý️</string>
+    <string name="content_comments_description">Thêm ý kiến đóng góp của bạn…</string>
+    <string name="interface_not_beautiful">Giao diện chưa đẹp mắt, khó sử dụng</string>
+    <string name="quality_processing_not_good">Chất lượng và tốc độ xử lý của app chưa tốt</string>
+    <string name="need_add_more_features">Cần bổ sung thêm nhiều tính năng hơn</string>
+    <string name="another_reason">Lý do khác</string>
+    <string name="so_great">Tuyệt quá!</string>
+    <string name="rate_comment_description">Mong bạn dành ra 1 phút để chấm điểm cho chúng tôi trên chợ ứng dụng nhé!</string>
+    <string name="disappointed">Thất vọng</string>
+    <string name="bored">Chán</string>
+    <string name="good_bye">Tạm được</string>
+    <string name="good">Tốt đấy</string>
+    <string name="great">Tuyệt vời</string>
+    <string name="submit_successful_review">Gửi đánh giá thành công!</string>
+    <string name="avatar_file_message">Vui lòng chọn ảnh có dung lượng dưới 10MB.</string>
+    <string name="fast_access">Truy cập nhanh</string>
+    <string name="recent_search">Tìm kiếm gần đây</string>
+    <string name="service">Dịch vụ</string>
+    <string name="feature_location">Điểm giao dịch</string>
+    <string name="feature_location2">Tìm điểm\ngiao dịch</string>
+    <string name="searching">Tìm kiếm...</string>
+    <string name="product_info">Thông tin sản phẩm</string>
+    <string name="registration_il">Đăng ký vay tiền mặt</string>
+    <string name="registration_advise_info">Đăng ký nhận thông tin tư vấn</string>
+    <string name="feature">Tính năng</string>
+    <string name="loan">Khoản vay</string>
+    <string name="feature_personal_info">Thông tin cá nhân</string>
+    <string name="chatbot_title">Tư vấn nhanh</string>
+    <string name="customer_support">Hỗ trợ khách hàng</string>
+    <string name="call_sale">Gọi tổng đài</string>
+    <string name="error_ekyc_digital">Thông tin CMND/CCCD không hợp lệ. Vui lòng kiểm tra và thử lại.</string>
+    <string name="title_ekyc_fail_digital">Thông tin không hợp lệ</string>
+    <string name="des_facematching_fail_digital">Ảnh chụp không hợp lệ. Vui lòng kiểm tra và thử lại.</string>
+    <string name="title_face_fail_digital">Cập nhật thông tin không thành công</string>
+    <string name="update_goods_success_message">Cập nhật số khung, số máy/số serial thành công</string>
+    <string name="update_goods_error_message">Không cập nhật được số khung, số máy/số serial, mời bạn thử lại sau hoặc liên hệ hotline 1900 636769</string>
+    <string name="no_internet">Thiết bị của bạn đang ngoại tuyến, vui lòng kiểm tra kết nối mạng!</string>
+    <string name="title_confirm_edt">Xác nhận chỉnh sửa thông tin xác thực</string>
+    <string name="des_confirm_edt">Trước khi chuyển hồ sơ của bạn sang bộ phận xét duyệt, chúng tôi cần bạn xác nhận</string>
+    <string name="des_policy_ekyc">Tôi cam kết những thông tin, hình ảnh đã cung cấp là chính xác, hợp pháp và không có thông tin nào bị che giấu hoặc làm sai lệch.</string>
+    <string name="des_ekyc_waitting">Tài khoản của bạn đang được xác thực. Chúng tôi sẽ thông báo tới bạn khi quá trình này hoàn tất.</string>
+    <string name="input_name">Nhập họ và tên</string>
+    <string name="input_card_number">Nhập số CMND/CCCD</string>
+    <string name="intput_issue_place">Nhập nguyên quán</string>
+    <string name="input_address">Nhập nơi ĐKHK thường trú</string>
+    <string name="input_email_ekyc">Ví dụ: abc@gmail.com (Không bắt buộc)</string>
+    <string name="choose_note">Quý khách cần cung cấp ít nhất 1 trong 2 loại giấy tờ: chứng minh nơi ở hoặc chứng minh khả năng tài chính.</string>
+    <string name="note_ekyc_edit">Lưu ý, sau khi chỉnh sửa thông tin, hồ sơ của bạn sẽ được chuyển qua quy trình phê duyệt trực tiếp. Thời gian phê duyệt có thể mất từ 3-5 ngày làm việc</string>
+    <string name="ocr_expire_date_ekyc">Có giá trị đến</string>
+    <string name="profile_no_empty">Hồ sơ không còn tồn tại hoặc đã hoàn tất. Vui lòng kiểm tra lại.</string>
+    <string name="search_transaction">Tra cứu</string>
+    <string name="search_atm">Tra cứu địa chỉ ATM</string>
+    <string name="add_atm">Địa chỉ ATM</string>
+    <string name="view_expense">Hiển thị theo đối tác chi hộ</string>
+    <string name="view_income">Hiển thị theo đối tác thu hộ</string>
+    <string name="atm">Nếu bạn không tìm thấy kết quả nào trong phạm vi đã định, hãy thử mở rộng phạm vi tìm kiếm xem sao nhé.</string>
+    <string name="cancle_econtract">Hủy hợp đồng</string>
+    <string name="econtract">Tiếp tục ký</string>
+    <string name="title_plhd">Giấy xác nhận phát hành thẻ tín dụng</string>
+    <string name="detail_plhd">Chi tiết phụ lục hợp đồng</string>
+    <string name="confirm_des_plhd">Việc ký phụ lục hợp đồng này là bắt buộc do Quý khách hàng đã xác nhận đồng ý ký trước đó. Tuy nhiên, nếu bạn chưa sẵn sàng, chúng tôi sẽ thử nhắc lại trong lần đăng nhập tiếp theo. Trân trọng cảm ơn.</string>
+    <string name="permission_location_des"><![CDATA[Để hoàn tất thao tác, vui lòng cung cấp quyền truy cập vị trí hiện tại. Bạn có thể thay đổi lại bất cứ khi nào bằng cách vào Cài đặt > Quyền truy cập > Vị trí.]]></string>
+    <string name="title_plhd_pdf">Phu Luc Hop Dong Xsell card</string>
+    <string name="please_turn_on_gps">Vui lòng bật định vị để sử dụng tính năng này</string>
+
+    <string name="econtract_plhd_sub">Quý khách đã hoàn thành PLHĐ Hợp đồng phát hành thẻ bằng PTĐT tại Mcredit theo HĐ %s. Trân trọng cảm ơn! Hotline 1900 63 67 69</string>
+    <string name="inventory_manual_phone">"Gọi tới số %s – nhánh số 3 "</string>
+    <string name="inventory_manual_email">"Gửi email yêu cầu đặt dịch vụ tới %s</string>
+    <string name="inventory_voucher_code">Mã giảm giá: %s</string>
+    <string name="inventory_amusement_park_code">Mã vé điện tử: %s</string>
+
+    <string name="ring_the_bell">Rung chuông</string>
+    <string name="view_rule_game_bell">Xem thể lệ chương trình</string>
+    <string name="understand_tutorial">Đã hiểu</string>
+    <string name="message_bell_title">Để nhận 1 lượt rung chuông, bạn cần 2 điều kiện sau:</string>
+    <string name="message_bell_ekyc">Xác thực tài khoản đăng nhập ứng dụng Mcredit.</string>
+    <string name="message_bell_disbursement">Giải ngân thành công khoản vay tại Mcredit hoặc kích hoạt thẻ tín dụng trong thời gian diễn ra sự kiện</string>
+    <string name="game_warning">Hệ thống đang cập nhật dữ liệu. Vui lòng thử lại sau ít phút!</string>
+
+    <string name="rule_detail_game_bell"><![CDATA[ <b>Hè đến - Bạn đi đâu chưa?</b> <br> <br>
+Hè này bạn đã đi đâu chưa? Giải ngân cùng Mcredit hôm nay để có cơ hội trúng kỳ nghỉ dưỡng trọn gói 5 sao hấp dẫn từ Vinpearl với trị giá kỳ nghỉ lên tới <font color=\'#0A73F0\'><b>100 triệu</b></font> đồng 😍. <br> <br>
+⏰ <b>Thời gian diễn ra sự kiện</b><br>
+Từ ngày 22/04/2022 đến ngày 22/06/2022 <br>
+● Lưu ý: Thời gian rung chuông từ 00:00 22/04/2022 đến 23:59 23/06/2022 <br> <br>
+🍀 <b>Ai có thể tham gia sự kiện này?</b><br>
+Tất cả các khách hàng giải ngân thành công hoặc kích hoạt thẻ tín dụng thành công tại Mcredit trên toàn quốc trong thời gian áp dụng chương trình khuyến mãi <br> <br>
+🎉 <b>Giá trị giải thưởng</b><br>
+● Kỳ nghỉ đặc biệt trọn gói 5 sao tại Vinpearl trị giá 100 triệu <br>
+● 05 kỳ nghỉ trọn gói tại Vinpearl trị giá 30 triệu đồng <br>
+● 10 kỳ nghỉ trọn gói tại Vinpearl trị giá 23 triệu đồng <br>
+● 15 kỳ nghỉ trọn gói tại Vinpearl trị giá 17.3 triệu đồng <br>
+● Voucher Vinpearl trị giá lên đến 2 triệu đồng. <br>
+● Vé vui chơi tại Vinwonder trị giá 880,000 đồng <br>
+● Vé vui chơi tại Vinpearl Safari trị giá 650,000 đồng <br> <br>
+🍀 <b>Cách thức tham gia</b><br>
+● Đối với khách hàng ký hợp đồng trên ứng dụng Mcredit: <br>
+- Vào ứng dụng Mcredit để nhận lượt rung chuông <br>
+● Đối với khách hàng ký hợp đồng bản cứng (trên giấy) có giải ngân thành công hoặc kích hoạt thẻ tín dụng Mcredit thành công trong thời gian diễn ra chương trình khuyến mãi: <br>
+- <b>Bước 1</b>: Tải ứng dụng Mcredit <br>
+- <b>Bước 2</b>:  Đăng ký và xác thực tài khoản Mcredit (eKYC) theo thông tin ghi trên hợp đồng vay và hợp đồng mở thẻ tín dụng. <br>
+(*) Lưu ý: Mỗi khách hàng được tặng <b>duy nhất 01 lượt rung chuông</b> với số hợp đồng giải ngân đầu tiên trong thời gian diễn ra chương trình khuyến mãi <br> <br>
+👉 <b>Thời gian trao thưởng</b> <br>
+Trong vòng 45 ngày kể từ ngày kết thúc chương trình khuyến mãi <br>
+<br>
+👉 <b>Thông tin liên hệ ban tổ chức </b><br>
+Nếu có thắc mắc, bạn vui lòng liên hệ ban tổ chức sự kiện theo Hotline  <font color=\'#0A73F0\'>1900 63 67 69</font>  ]]></string>
+
+    <string name="notify_update_content1">Từ ngày 22/04/2022, các khoản vay đăng ký bằng số điện thoại khác với số điện thoại đã dùng để tạo tài khoản Mcredit sẽ không còn được hỗ trợ quản lý trên ứng dụng.</string>
+    <string name="notify_update_content2">Để tiếp tục quản lý các khoản vay này trên ứng dụng, vui lòng liên hệ hotline 1900 63 67 69 cập nhật số điện thoại trong hợp đồng bạn nhé.</string>
+    <string name="do_not_show_notify">Không hiện lại thông báo</string>
+    <string name="understand_confirm">Tôi đã hiểu</string>
+    <string name="cross_check_question_1">Số điện thoại người thân/người tham chiếu khi đăng ký khoản vay gần nhất của bạn (bố, mẹ, con, anh/chị/em ruột, vợ/chồng)</string>
+    <string name="cross_check_question_2">Số tiền bạn đã nhận về từ Mcredit vào lần giải ngân gần đây nhất (bao gồm bảo hiểm)?</string>
+    <string name="btn_show_list_loan">Xem khoản vay của tôi</string>
+    <string name="cross_check_success_content">Bạn đã có thể truy cập và sử dụng chức năng Quản lý khoản vay</string>
+    <string name="cross_check_success_title">Xác thực thành công</string>
+    <string name="notify_do_not_support">Ngừng hỗ trợ quản lý khoản vay với số điện thoại </string>
+    <string name="notify_do_not_support_content">Từ ngày 22/04/2022, các khoản vay đăng ký bằng số điện thoại khác với số điện thoại đã dùng để tạo tài khoản Mcredit sẽ không còn được hỗ trợ quản lý trên ứng dụng.\n \nĐể tiếp tục quản lý các khoản vay này trên ứng dụng, vui lòng liên hệ hotline 1900 63 67 69 cập nhật số điện thoại trong hợp đồng bạn nhé.</string>
+    <string name="btn_done">Xong</string>
+    <string name="wrong_answer_title">Câu trả lời chưa chính xác</string>
+    <string name="wrong_answer_message">Bạn còn %s lần thử lại.</string>
+    <string name="loan_list_lock_title">Bạn đã hết lần thử</string>
+    <string name="loan_list_lock_message">Bạn chưa thể truy cập Quản lý khoản vay. Thử lại vào ngày mai bạn nhé. </string>
+    <string name="wrong_input_phone_number">Số điện thoại không đúng định dạng</string>
+    <string name="cross_check_lock_title">Tính năng này đang tạm khóa</string>
+    <string name="cross_check_lock_message">Do trước đó, bạn đã trả lời không thành công 3 lần câu hỏi bảo mật. Quay trở lại vào ngày mai bạn nhé.</string>
+    <string name="please_answer_question">Vui lòng trả lời câu hỏi bảo mật dưới đây</string>
+    <string name="question1">CÂU HỎI</string>
+    <string name="question2">CÂU HỎI 2</string>
+    <string name="question3">CÂU HỎI 3</string>
+    <string name="question_title">Câu hỏi bảo mật</string>
+    <string name="crosscheck_description">Mcredit sử dụng câu hỏi bảo mật để đảm bảo chỉ có bạn mới truy cập được tài khoản của mình.</string>
+    <string name="crosscheck_info_detail_1">Có 1 câu hỏi bảo mật liên quan đến thông tin của bạn mà chỉ mình bạn biết</string>
+    <string name="crosscheck_info_detail_2">Trả lời đúng câu hỏi để có thể truy cập tính năng Quản lý khoản vay</string>
+    <string name="crosscheck_info_detail_3">Xác thực bằng câu hỏi bảo mật chỉ áp dụng 1 lần duy nhất đối với 1 tài khoản trên cùng thiết bị</string>
+
+</resources>
